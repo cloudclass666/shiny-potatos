@@ -1,0 +1,141 @@
+# Copyright (C) 2012 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/buddypress-mymood\n"
+"POT-Creation-Date: 2012-07-31 19:52:36+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: buddypress-mymood.php:22
+msgid "Mood :"
+msgstr ""
+
+#: buddypress-mymood.php:83 buddypress-mymood.php:180
+msgid "Please choose mood to post."
+msgstr ""
+
+#: buddypress-mymood.php:186
+msgid "You have selected invalid mood try again."
+msgstr ""
+
+#: buddypress-mymood.php:193
+msgid "Error with moods try again."
+msgstr ""
+
+#: buddypress-mymood.php:227 buddypress-mymood.php:252
+msgid "Mood"
+msgstr ""
+
+#: buddypress-mymood_admin.php:20
+msgid "You have no permission to access this page !"
+msgstr ""
+
+#: buddypress-mymood_admin.php:32
+msgid "Settings"
+msgstr ""
+
+#: buddypress-mymood_admin.php:41
+msgid "has been deleted"
+msgstr ""
+
+#: buddypress-mymood_admin.php:41
+msgid "Click Here"
+msgstr ""
+
+#: buddypress-mymood_admin.php:41
+msgid "to go back"
+msgstr ""
+
+#: buddypress-mymood_admin.php:76
+msgid "Status Saved."
+msgstr ""
+
+#: buddypress-mymood_admin.php:89
+msgid "Mood Sorted."
+msgstr ""
+
+#: buddypress-mymood_admin.php:99
+msgid "Mood Sorted in Reverse Order."
+msgstr ""
+
+#: buddypress-mymood_admin.php:117
+msgid "Enable :"
+msgstr ""
+
+#: buddypress-mymood_admin.php:119
+msgid "If checked then BuddyPress MyMood will not show anywhere on your site."
+msgstr ""
+
+#: buddypress-mymood_admin.php:124
+msgid "Mood Requred :"
+msgstr ""
+
+#: buddypress-mymood_admin.php:126
+msgid ""
+"If checked then member will be forced to updated his/her mood with every "
+"status."
+msgstr ""
+
+#: buddypress-mymood_admin.php:131
+msgid "Mood on Profile Head :"
+msgstr ""
+
+#: buddypress-mymood_admin.php:133
+msgid ""
+"If checked then latest mood (if any) will be shown on member profile header "
+"near name."
+msgstr ""
+
+#: buddypress-mymood_admin.php:138
+msgid "Manage Moods :"
+msgstr ""
+
+#: buddypress-mymood_admin.php:140
+msgid "Sort Moods"
+msgstr ""
+
+#: buddypress-mymood_admin.php:141
+msgid "Sort Moods (Reverse Order)"
+msgstr ""
+
+#: buddypress-mymood_admin.php:144
+msgid "oh yeah! for sorting manually you can drag and drop moods."
+msgstr ""
+
+#: buddypress-mymood_admin.php:298
+msgid "Follow WebGarb on twitter."
+msgstr ""
+
+#: buddypress-mymood_admin.php:304
+msgid "Tell about this plugin to your followers."
+msgstr ""
+
+#: buddypress-mymood_admin.php:311
+msgid "Latest Update."
+msgstr ""
+
+#: buddypress-mymood_admin.php:352
+msgid "Need Help ? Visit"
+msgstr ""
+
+#: buddypress-mymood_admin.php:352
+msgid "HomePage"
+msgstr ""
+
+#: buddypress-mymood_admin.php:354
+msgid "Need a  Basic MyMood plugin for WordPress user ? Checkout Basic"
+msgstr ""
+
+#: buddypress-mymood_admin.php:354
+msgid "plugin visit :"
+msgstr ""
+
+#: buddypress-mymood_admin.php:356
+msgid "MyMood Contain Graphic Smiley are property of their respective owner."
+msgstr ""

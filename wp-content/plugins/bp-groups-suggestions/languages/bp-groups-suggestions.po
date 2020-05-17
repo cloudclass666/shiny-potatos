@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-19 14:37+0200\n"
+"PO-Revision-Date: 2014-08-19 14:40+0200\n"
+"Last-Translator: Lena Stergatu <stergatu@cti.gr>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-group-suggest.php:247
+#, php-format
+msgid "active %s"
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-group-suggest.php:265
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/groups/suggested_groups.php:65
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:42
+msgid "We don't have enough details to suggest a group yet."
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-group-suggest.php:279
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-suggest-functions.php:172
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-suggest-functions.php:173
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-suggest-functions.php:188
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-suggest-functions.php:189
+msgid "Hide this suggestion"
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-group-suggest.php:291
+#, php-format
+msgid "You have %s removed groups from suggestions"
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-group-suggest.php:293
+msgid "Reset groups suggestions"
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-group-suggest.php:307
+msgid "The group has been removed from the suggested groups"
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-suggest-functions.php:31
+msgid "your's friends groups"
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-suggest-functions.php:207
+msgid "You have previously select that you are not interested for this group."
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/groups/suggested_groups.php:13
+#, php-format
+msgid "Suggested Groups <span>%s</span>"
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/groups/suggested_groups.php:34
+msgid "The suggested groups are based on: "
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/groups/suggested_groups.php:65
+msgid "Try make some more friends, first."
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:14
+msgid "Group Suggestion Widget"
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:15
+msgid "Suggest groups for logged in user"
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:43
+msgid "Try make some more friends, first"
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:49
+msgid "See more suggestions"
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:85
+msgid "Group Suggestions"
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:93
+msgid "Title"
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:98
+msgid "Max Number of suggestions:"
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:103
+msgid "Number of charachers of group's title:"
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:104
+msgid "0 means that  full group title will be displayed"
+msgstr ""
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:109
+msgid "Show join group button?"
+msgstr ""

@@ -1,0 +1,475 @@
+# Copyright (C) 2020 white-label
+# This file is distributed under the same license as the white-label package.
+msgid ""
+msgstr ""
+"Project-Id-Version: white-label\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: White-label\n"
+"Last-Translator: White-label\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: dist/white-label/admin/class-admin-settings.php:75
+msgid "Settings"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:78, dist/white-label/admin/class-admin-settings.php:448
+msgid "Documentation"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:100, dist/white-label/admin/class-admin-settings.php:320, dist/white-label/functions/custom-dashboard-page.php:44
+msgid "Dashboard"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:105
+msgid "Menus & Plugins"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:110
+msgid "Visual Tweaks"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:115
+msgid "Misc"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:120
+msgid "Import & Export"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:145
+msgid "General"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:146
+msgid "Quickly turn on and off all White Label settings."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:152
+msgid "Enable White Label"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:153
+msgid "Enable White Labelling on entire site."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:158
+msgid "White Label Administators"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:159
+msgid "A White Label Administrator will bypass other rules set inside the White Label plugin. You will be able to hide sensitive menus, plugins, updates and more from all normal administrators."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:165
+msgid "WL Administrators"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:166
+msgid "Select which administrators should also be White Label Administrators."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:176
+msgid "Login Design"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:177
+msgid "Customize and design the WordPress login page to suit your branding."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:183, dist/white-label/admin/class-admin-settings.php:185
+msgid "Business Name"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:184
+msgid "Your business name will be included inside the link attribute on the login logo."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:190
+msgid "Business URL"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:191
+msgid "The login logo will link to your business URL."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:192, dist/white-label/admin/class-admin-settings.php:403, dist/white-label/admin/class-admin-settings.php:410
+msgid "https://whitewp.com/"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:197
+msgid "Login Logo image"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:198
+msgid "Replaces the WordPress logo on the login screen."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:202
+msgid "Choose Logo Image"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:207
+msgid "Page Background Image"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:208
+msgid "Choose a background image to use on the login screen."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:212
+msgid "Choose Background Image"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:217
+msgid "Page Background Color"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:218
+msgid "Background color of the login screen if you do not have an image selected."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:224
+msgid "Login Box Background"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:225
+msgid "Background color of the login details box."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:231
+msgid "Login Box Text Color"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:232
+msgid "Change the color of the text inside the login box."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:238
+msgid "Link Color"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:239
+msgid "Change the color of the links outside the login box."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:245
+msgid "Button Color"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:246
+msgid "Color of the login button."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:252
+msgid "Button Font Color"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:253
+msgid "Color of the login button text."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:259
+msgid "Custom CSS"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:260
+msgid "Any CSS in this box will apply to the login screen."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:266, dist/white-label/admin/class-admin-settings.php:273
+msgid "Login Template"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:267
+msgid "Switch it up with a fresh new login page look and feel. The login template changes the layout of the login screen."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:274
+msgid "Select a login screen template to use. Your above customizations will apply to any template."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:278
+msgid "Default"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:279
+msgid "Left Login"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:280
+msgid "Right Login"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:288, dist/white-label/admin/class-admin-settings.php:295
+msgid "Hidden Plugins"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:289
+msgid "Hide the selected plugins from the plugin page. Only White Label Administrators will be able to see the selected plugins & their updates in the plugins list."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:296
+msgid "Selected plugins will be hidden from all non-White Label Administrators."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:302, dist/white-label/admin/class-admin-settings.php:309
+msgid "Hidden Sidebar Menus"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:303
+msgid "Hide the selected sidebar menu items from non-White Label Administrators."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:310
+msgid "Selected sidebar menus will be hidden from all non-White Label Administrators."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:321
+msgid "Create your own experence in the WordPress Dashboard. You can provide users with quick links or information."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:327
+msgid "Custom Welcome Panel "
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:328
+msgid "Replaces the default Welcome Panel content on the dashboard."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:333
+msgid "Remove Dashboard Widgets"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:334
+msgid "Remove all default dashboard widgets."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:340
+msgid "Widget"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:341
+msgid "Add a custom widget to the admin dashboard. Provide users with quick links or information."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:347
+msgid "Enable Widget"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:348
+msgid "The custom widget will show up for all users in the admin dashboard."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:353
+msgid "Widget Title"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:354
+msgid "The heading of your new dashboard widget."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:359
+msgid "Widget Content"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:360
+msgid "The content of your new dashboard widget."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:365
+msgid "Custom Dashboard"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:366
+msgid "If you do not wish to have any widgets on the dashboard, then you can replace it with your own dashboard content."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:372
+msgid "Enable Custom Dashboard"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:373
+msgid "The custom dashboard will replace the default dashboard and all widgets."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:378
+msgid "Dashboard Content"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:379
+msgid "The content of your new custom dashboard."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:387
+msgid "Admin Area"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:388
+msgid "Customize the administrator side of WordPress."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:394
+msgid "Replace Howdy in Admin Bar"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:395
+msgid "For example, welcome may be more professional."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:401
+msgid "Remove WordPress Logo in Admin bar"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:402
+msgid "Remove the tiny WordPress logo in the admin bar."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:408
+msgid "Replace WordPress Logo in Admin bar"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:409
+msgid "Replace the tiny WordPress logo in the admin bar with your own."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:413
+msgid "Choose mini logo"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:418
+msgid "Admin Footer Credit"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:419
+msgid "Replace the admin footer credit with your own."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:424, dist/white-label/admin/class-admin-settings.php:431
+msgid "Admin Scripts"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:425
+msgid "Run Javascript in the admin area. Great for adding a live chat for your clients to contact you."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:432
+msgid "Any scripts here will only run on the administrator side of WordPress."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:443
+msgid "Feature Request"
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:444
+msgid "Got a great idea or are you missing something essential for your business? Let us know <a href=\"https://whitewp.com/support/\" target=\"_blank\">whitewp.com/support/</a> "
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:449
+msgid "Our <a href=\"https://whitewp.com/docs/\" target=\"_blank\">documentation</a> has detailed information on the features and white labelling. <br /> You can also say <em>hello</em> to us via <a href=\"https://whitewp.com/support/\" target=\"_blank\">support</a>."
+msgstr ""
+
+#: dist/white-label/admin/class-admin-settings.php:515
+msgid "White Label"
+msgstr ""
+
+#: dist/white-label/admin/free.php:52
+msgid "Upgrade your WP Experience"
+msgstr ""
+
+#: dist/white-label/admin/free.php:53
+msgid ""
+"Give your clients or users a better experience with <a href=\"https://whitewp.com/\" target=\"_blank\">White Label Pro</a>.\n"
+"			<p>\n"
+"			<b><em>Included in Professional:</em></b>\n"
+"			</p>\n"
+"			<ul style=\"list-style: initial;\n"
+"			margin-left: 30px;\n"
+"			\">\n"
+"			<li>Update nags - Hide update notifications from none White Label Administrators</li>\n"
+"			<li>Remove the admin bar on the frontend</li>\n"
+"			<li>Redirect user after loggin in.</li>\n"
+"			<li>Set WordPress email address & email from name</li>\n"
+"			</ul>\n"
+"			<br />\n"
+"			<a style=\"background: #0052cc; font-weight:700; border-color:#0052cc; color:#fff; padding:5px 10px;\"\n"
+"class=\"button-primary\" href=\"https://whitewp.com/\" target=\"_blank\">Upgrade</a>"
+msgstr ""
+
+#: dist/white-label/admin/functions.php:38
+msgid "Preview Login Page"
+msgstr ""
+
+#: dist/white-label/admin/functions.php:108
+msgid "You"
+msgstr ""
+
+#: dist/white-label/classes/class-import-export.php:149
+msgid "Import cancelled. No import file uploaded."
+msgstr ""
+
+#: dist/white-label/classes/class-import-export.php:160
+msgid "Import cancelled. Please use a valid .json file."
+msgstr ""
+
+#: dist/white-label/classes/class-import-export.php:171
+msgid "Import cancelled. File is empty."
+msgstr ""
+
+#: dist/white-label/classes/class-import-export.php:209
+msgid "Import cancelled. Incorrect file structure, no array detected."
+msgstr ""
+
+#: dist/white-label/classes/class-import-export.php:230
+msgid "Import cancelled. Import did not match the White Label settings."
+msgstr ""
+
+#: dist/white-label/classes/class-import-export.php:243
+msgid "Import Complete:"
+msgstr ""
+
+#: dist/white-label/classes/class-import-export.php:243
+msgid "sections has been sucessfully uploaded & imported into White Label."
+msgstr ""
+
+#: dist/white-label/classes/class-import-export.php:262
+msgid "Export Settings"
+msgstr ""
+
+#: dist/white-label/classes/class-import-export.php:264
+msgid "Export the plugin settings for this site as a .json file. This allows you to easily import your configuration into another site."
+msgstr ""
+
+#: dist/white-label/classes/class-import-export.php:276
+msgid "Import Settings"
+msgstr ""
+
+#: dist/white-label/classes/class-import-export.php:278
+msgid "Import the plugin settings from a .json file. This file can be obtained by exporting your settings from another site."
+msgstr ""
+
+#: dist/white-label/classes/class-settings-api.php:545
+msgid "Save Settings"
+msgstr ""
+
+#: dist/white-label/white-label.php:76
+msgid "Head's up - White Label Pro is standalone now. Please deactivate the free version and update to White Label Pro 2.0+"
+msgstr ""
+
+#: dist/white-label/white-label.php:85
+msgid "Thank you for installing White Label! Get started White Labelling your site now."
+msgstr ""
+
+#: dist/white-label/white-label.php:88
+msgid "Configure White Label"
+msgstr ""
+
+#: dist/white-label/white-label.php:127
+msgid "Success! White Label settings has been imported. Please set your White Label Administrators as they differer from site to site."
+msgstr ""

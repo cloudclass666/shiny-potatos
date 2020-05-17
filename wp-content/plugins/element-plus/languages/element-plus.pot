@@ -1,0 +1,1828 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-02-12 15:30+0600\n"
+"PO-Revision-Date: 2020-02-04 18:33+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __(;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: languages\n"
+
+#: elements/accordion/class-element-accordion.php:19
+msgid "Element plus accordion"
+msgstr ""
+
+#: elements/accordion/class-element-accordion.php:39
+#: elements/pricing/class-element-pricing.php:104
+msgid "Feature (s)"
+msgstr ""
+
+#: elements/accordion/class-element-accordion.php:44
+#: elements/banner/class-element-banner.php:61
+#: elements/counter/class-element-counter.php:46
+#: elements/heading/class-element-heading.php:39
+#: elements/info-box/class-element-info-box.php:60
+#: elements/promotion/class-element-promotion.php:43
+msgid "Title"
+msgstr ""
+
+#: elements/accordion/class-element-accordion.php:49
+#: elements/tabs/class-element-tabs.php:49
+msgid "Content"
+msgstr ""
+
+#: elements/accordion/class-element-accordion.php:56
+#: elements/button/class-element-button.php:116
+#: elements/info-box/class-element-info-box.php:86
+#: elements/social-profile/class-element-social-profile.php:51
+msgid "Color"
+msgstr ""
+
+#: elements/accordion/class-element-accordion.php:58
+#: elements/accordion/class-element-accordion.php:68
+#: elements/accordion/class-element-accordion.php:78
+#: elements/banner/class-element-banner.php:86
+#: elements/banner/class-element-banner.php:98
+#: elements/banner/class-element-banner.php:109
+#: elements/banner/class-element-banner.php:117
+#: elements/banner/class-element-banner.php:127
+#: elements/banner/class-element-banner.php:138
+#: elements/banner/class-element-banner.php:145
+#: elements/button/class-element-button.php:45
+#: elements/button/class-element-button.php:57
+#: elements/button/class-element-button.php:68
+#: elements/button/class-element-button.php:86
+#: elements/button/class-element-button.php:97
+#: elements/button/class-element-button.php:108
+#: elements/button/class-element-button.php:118
+#: elements/button/class-element-button.php:128
+#: elements/button/class-element-button.php:138
+#: elements/button/class-element-button.php:148
+#: elements/edd-products/class-element-edd-products.php:66
+#: elements/edd-products/class-element-edd-products.php:72
+#: elements/gradient-heading/class-element-gradient-heading.php:42
+#: elements/gradient-heading/class-element-gradient-heading.php:49
+#: elements/gradient-heading/class-element-gradient-heading.php:56
+#: elements/gradient-heading/class-element-gradient-heading.php:64
+#: elements/gradient-heading/class-element-gradient-heading.php:70
+#: elements/gradient-heading/class-element-gradient-heading.php:77
+#: elements/gradient-heading/class-element-gradient-heading.php:83
+#: elements/gradient-heading/class-element-gradient-heading.php:90
+#: elements/heading/class-element-heading.php:55
+#: elements/heading/class-element-heading.php:69
+#: elements/heading/class-element-heading.php:77
+#: elements/heading/class-element-heading.php:85
+#: elements/heading/class-element-heading.php:92
+#: elements/heading/class-element-heading.php:99
+#: elements/heading/class-element-heading.php:106
+#: elements/info-box/class-element-info-box.php:89
+#: elements/info-box/class-element-info-box.php:99
+#: elements/info-box/class-element-info-box.php:110
+#: elements/info-box/class-element-info-box.php:121
+#: elements/logo-carousel/class-element-logo-carousel.php:88
+#: elements/logo-carousel/class-element-logo-carousel.php:94
+#: elements/logo-carousel/class-element-logo-carousel.php:101
+#: elements/logo-carousel/class-element-logo-carousel.php:107
+#: elements/logo-carousel/class-element-logo-carousel.php:113
+#: elements/logo-carousel/class-element-logo-carousel.php:119
+#: elements/logo-carousel/class-element-logo-carousel.php:125
+#: elements/logo-carousel/class-element-logo-carousel.php:186
+#: elements/pricing/class-element-pricing.php:137
+#: elements/pricing/class-element-pricing.php:147
+#: elements/pricing/class-element-pricing.php:157
+#: elements/products-carousel/class-element-products-carousel.php:48
+#: elements/products-carousel/class-element-products-carousel.php:58
+#: elements/products-grid/class-element-products-grid.php:60
+#: elements/products-grid/class-element-products-grid.php:70
+#: elements/progresspie/class-element-progresspie.php:79
+#: elements/progresspie/class-element-progresspie.php:86
+#: elements/progresspie/class-element-progresspie.php:93
+#: elements/progresspie/class-element-progresspie.php:100
+#: elements/progresspie/class-element-progresspie.php:107
+#: elements/promotion/class-element-promotion.php:61
+#: elements/promotion/class-element-promotion.php:66
+#: elements/promotion/class-element-promotion.php:76
+#: elements/promotion/class-element-promotion.php:82
+#: elements/promotion/class-element-promotion.php:88
+#: elements/promotion/class-element-promotion.php:94
+#: elements/promotion/class-element-promotion.php:101
+#: elements/promotion/class-element-promotion.php:108
+#: elements/promotion/class-element-promotion.php:113
+#: elements/promotion/class-element-promotion.php:121
+#: elements/qr-code/class-element-qr-code.php:112
+#: elements/qr-code/class-element-qr-code.php:120
+#: elements/qr-code/class-element-qr-code.php:127
+#: elements/team/class-element-team.php:111
+#: elements/team/class-element-team.php:122
+#: elements/testimonial/class-element-testimonial.php:91
+#: elements/testimonial/class-element-testimonial.php:101
+#: elements/timeline-horizontal/class-element-timeline-horizontal.php:65
+#: elements/timeline-horizontal/class-element-timeline-horizontal.php:71
+#: elements/timeline/class-element-timeline.php:79
+#: elements/timeline/class-element-timeline.php:85
+msgid "Design"
+msgstr ""
+
+#: elements/accordion/class-element-accordion.php:66
+#: elements/button/class-element-button.php:136
+#: elements/countdown/class-element-countdown.php:42
+#: elements/edd-products/class-element-edd-products.php:64
+#: elements/gradient-heading/class-element-gradient-heading.php:68
+#: elements/info-box/class-element-info-box.php:107
+#: elements/pricing/class-element-pricing.php:135
+#: elements/products-carousel/class-element-products-carousel.php:46
+#: elements/products-grid/class-element-products-grid.php:58
+#: elements/qr-code/class-element-qr-code.php:109
+#: elements/schedules/class-element-schedules.php:42
+#: elements/social-profile/class-element-social-profile.php:58
+#: elements/team/class-element-team.php:108
+#: elements/testimonial/class-element-testimonial.php:89
+#: elements/timeline-horizontal/class-element-timeline-horizontal.php:63
+#: elements/timeline/class-element-timeline.php:77
+msgid "Primary Color"
+msgstr ""
+
+#: elements/accordion/class-element-accordion.php:76
+#: elements/button/class-element-button.php:146
+#: elements/countdown/class-element-countdown.php:51
+#: elements/edd-products/class-element-edd-products.php:70
+#: elements/gradient-heading/class-element-gradient-heading.php:81
+#: elements/info-box/class-element-info-box.php:118
+#: elements/pricing/class-element-pricing.php:145
+#: elements/products-carousel/class-element-products-carousel.php:52
+#: elements/products-grid/class-element-products-grid.php:64
+#: elements/qr-code/class-element-qr-code.php:117
+#: elements/social-profile/class-element-social-profile.php:67
+#: elements/team/class-element-team.php:119
+#: elements/testimonial/class-element-testimonial.php:99
+#: elements/timeline-horizontal/class-element-timeline-horizontal.php:69
+#: elements/timeline/class-element-timeline.php:83
+msgid "Secondary Color"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:19
+msgid "Element plus banner"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:38
+msgid "Background Image"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:47
+msgid "Select Front Image"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:56
+#: elements/heading/class-element-heading.php:34
+#: elements/promotion/class-element-promotion.php:48
+msgid "Sub Title"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:67
+#: elements/heading/class-element-heading.php:44
+#: elements/info-box/class-element-info-box.php:70
+#: elements/pricing/class-element-pricing.php:100
+#: elements/team/class-element-team.php:76
+msgid "Short Description"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:72
+msgid "Button 1"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:74
+#: elements/banner/class-element-banner.php:80
+#: elements/info-box/class-element-info-box.php:82
+msgid "Add custom link."
+msgstr ""
+
+#: elements/banner/class-element-banner.php:78
+msgid "Button 2"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:85
+msgid "Alignment"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:88
+#: elements/heading/class-element-heading.php:57
+#: elements/promotion/class-element-promotion.php:123
+msgid "Left"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:89
+#: elements/heading/class-element-heading.php:58
+msgid "Center"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:90
+#: elements/heading/class-element-heading.php:59
+#: elements/promotion/class-element-promotion.php:124
+msgid "Right"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:97
+msgid "Content Layout"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:100
+msgid "Image Right - Content Left"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:101
+msgid "Image Left - Content Right"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:108
+msgid "Banner Circle Shape"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:115
+msgid "Circle Shape Position"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:116
+msgid "Reposition Circle Shape with this format: Top Right Bottom Left. Example: -200 0 -200 auto | Default: 0 0 0 0"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:125
+msgid "Circle Shape Color"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:136
+#: elements/promotion/class-element-promotion.php:59
+msgid "Banner Padding"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:137
+msgid "Reposition image using Padding with this format: Top Right Bottom Left. Example: 150px 0 100px 0 | Default: 0 0 0 0"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:143
+msgid "Front Image Margin"
+msgstr ""
+
+#: elements/banner/class-element-banner.php:144
+msgid "Reposition image using Margin with this format: Top Right Bottom Left. Example: 150px 0 100px 0 | Default: 0 0 0 0"
+msgstr ""
+
+#: elements/button/class-element-button.php:19
+msgid "Element plus button"
+msgstr ""
+
+#: elements/button/class-element-button.php:33
+msgid "Button Property"
+msgstr ""
+
+#: elements/button/class-element-button.php:39
+msgid "If checked, Custom design option will be available on design tab."
+msgstr ""
+
+#: elements/button/class-element-button.php:40
+msgid "Custom Design"
+msgstr ""
+
+#: elements/button/class-element-button.php:46
+msgid "Fullwidth Button"
+msgstr ""
+
+#: elements/button/class-element-button.php:54
+msgid "Padding"
+msgstr ""
+
+#: elements/button/class-element-button.php:56
+#: elements/button/class-element-button.php:67
+#: elements/button/class-element-button.php:98
+#: elements/logo-carousel/class-element-logo-carousel.php:95
+#: elements/logo-carousel/class-element-logo-carousel.php:127
+msgid "Format: Top Right Bottom Left. Example: 10px 15px 10px 15px | Default: 0 0 0 0"
+msgstr ""
+
+#: elements/button/class-element-button.php:65
+msgid "Margin"
+msgstr ""
+
+#: elements/button/class-element-button.php:76
+msgid "Min Width"
+msgstr ""
+
+#: elements/button/class-element-button.php:84
+#: elements/gradient-heading/class-element-gradient-heading.php:40
+msgid "Font Size"
+msgstr ""
+
+#: elements/button/class-element-button.php:87
+msgid "Example: 10px Default: 0"
+msgstr ""
+
+#: elements/button/class-element-button.php:95
+msgid "Radius"
+msgstr ""
+
+#: elements/button/class-element-button.php:107
+msgid "Stroke Button"
+msgstr ""
+
+#: elements/button/class-element-button.php:126
+msgid "Hover Color"
+msgstr ""
+
+#: elements/charts/class-element-charts.php:19
+msgid "Element plus Charts"
+msgstr ""
+
+#: elements/charts/class-element-charts.php:24
+msgid "Line"
+msgstr ""
+
+#: elements/charts/class-element-charts.php:25
+msgid "Bar / Column"
+msgstr ""
+
+#: elements/charts/class-element-charts.php:26
+msgid "Pie"
+msgstr ""
+
+#: elements/charts/class-element-charts.php:27
+msgid "Donut"
+msgstr ""
+
+#: elements/charts/class-element-charts.php:46
+msgid "Data Label"
+msgstr ""
+
+#: elements/charts/class-element-charts.php:55
+msgid "Chart Data"
+msgstr ""
+
+#: elements/charts/class-element-charts.php:60
+#: elements/progressbar/class-element-progressbar.php:37
+#: elements/progresspie/class-element-progresspie.php:37
+#: elements/tabs/class-element-tabs.php:40
+msgid "Label"
+msgstr ""
+
+#: elements/charts/class-element-charts.php:61
+msgid "Add level of this data value, this label will appear at the x-axis."
+msgstr ""
+
+#: elements/charts/class-element-charts.php:66
+#: elements/progressbar/class-element-progressbar.php:59
+#: elements/progresspie/class-element-progresspie.php:47
+msgid "Value"
+msgstr ""
+
+#: elements/charts/class-element-charts.php:67
+msgid "Specify the value for this data."
+msgstr ""
+
+#: elements/countdown/class-element-countdown.php:19
+msgid "Element plus countdown timer"
+msgstr ""
+
+#: elements/countdown/class-element-countdown.php:35
+msgid "Date & Time"
+msgstr ""
+
+#: elements/countdown/class-element-countdown.php:36
+msgid "20-10-2020 01:51 pm"
+msgstr ""
+
+#: elements/countdown/class-element-countdown.php:37
+msgid "Use this format to add date with/without time. Format: d-m-Y h:i a. Example: 20-10-2020 01:51 pm"
+msgstr ""
+
+#: elements/countdown/class-element-countdown.php:60
+#: elements/schedules/class-element-schedules.php:51
+msgid "Text Color"
+msgstr ""
+
+#: elements/countdown/views/template-1.php:68
+msgid "Days"
+msgstr ""
+
+#: elements/countdown/views/template-1.php:69
+msgid "Hours"
+msgstr ""
+
+#: elements/countdown/views/template-1.php:70
+msgid "Minutes"
+msgstr ""
+
+#: elements/countdown/views/template-1.php:71
+msgid "Seconds"
+msgstr ""
+
+#: elements/counter/class-element-counter.php:19
+msgid "Element plus counter"
+msgstr ""
+
+#: elements/counter/class-element-counter.php:36
+msgid "Counter (s)"
+msgstr ""
+
+#: elements/counter/class-element-counter.php:41
+msgid "Number"
+msgstr ""
+
+#: elements/counter/class-element-counter.php:55
+msgid "Icon Color"
+msgstr ""
+
+#: elements/counter/class-element-counter.php:60
+#: elements/progressbar/class-element-progressbar.php:101
+msgid "Number Color"
+msgstr ""
+
+#: elements/counter/class-element-counter.php:65
+#: elements/heading/class-element-heading.php:97
+#: elements/promotion/class-element-promotion.php:74
+msgid "Title Color"
+msgstr ""
+
+#: elements/counter/class-element-counter.php:70
+#: elements/progressbar/class-element-progressbar.php:121
+msgid "Primary Background"
+msgstr ""
+
+#: elements/counter/class-element-counter.php:79
+#: elements/progressbar/class-element-progressbar.php:131
+msgid "Secondary Background"
+msgstr ""
+
+#: elements/counter/views/template-1.php:18
+msgid "Cups Of Coffee"
+msgstr ""
+
+#: elements/counter/views/template-1.php:19
+msgid "12,218"
+msgstr ""
+
+#: elements/edd-products/class-element-edd-products.php:25
+msgid "Element plus EDD Products"
+msgstr ""
+
+#: elements/edd-products/class-element-edd-products.php:41
+#: elements/post-grid/class-element-post-grid.php:45
+#: elements/products-carousel/class-element-products-carousel.php:41
+#: elements/products-grid/class-element-products-grid.php:41
+#: elements/timeline/class-element-timeline.php:45
+msgid "Total Items"
+msgstr ""
+
+#: elements/edd-products/class-element-edd-products.php:46
+#: elements/portfolio/class-element-portfolio.php:38
+#: elements/post-grid/class-element-post-grid.php:50
+#: elements/products-grid/class-element-products-grid.php:46
+msgid "Item (s) Per Row"
+msgstr ""
+
+#: elements/edd-products/class-element-edd-products.php:49
+#: elements/portfolio/class-element-portfolio.php:41
+#: elements/post-grid/class-element-post-grid.php:53
+#: elements/products-grid/class-element-products-grid.php:49
+msgid "1 Column"
+msgstr ""
+
+#: elements/edd-products/class-element-edd-products.php:50
+#: elements/portfolio/class-element-portfolio.php:42
+#: elements/post-grid/class-element-post-grid.php:54
+#: elements/products-grid/class-element-products-grid.php:50
+msgid "2 Column"
+msgstr ""
+
+#: elements/edd-products/class-element-edd-products.php:51
+#: elements/portfolio/class-element-portfolio.php:43
+#: elements/post-grid/class-element-post-grid.php:55
+#: elements/products-grid/class-element-products-grid.php:51
+msgid "3 Column"
+msgstr ""
+
+#: elements/edd-products/class-element-edd-products.php:52
+#: elements/portfolio/class-element-portfolio.php:44
+#: elements/post-grid/class-element-post-grid.php:56
+#: elements/products-grid/class-element-products-grid.php:52
+msgid "4 Column"
+msgstr ""
+
+#: elements/edd-products/class-element-edd-products.php:53
+#: elements/post-grid/class-element-post-grid.php:57
+#: elements/products-grid/class-element-products-grid.php:53
+msgid "6 Column"
+msgstr ""
+
+#: elements/edd-products/class-element-edd-products.php:59
+#: elements/post-grid/class-element-post-grid.php:62
+#: elements/timeline-horizontal/class-element-timeline-horizontal.php:45
+#: elements/timeline/class-element-timeline.php:50
+msgid "Excerpt Length"
+msgstr ""
+
+#: elements/gradient-heading/class-element-gradient-heading.php:19
+msgid "Element plus gradient header"
+msgstr ""
+
+#: elements/gradient-heading/class-element-gradient-heading.php:34
+msgid "Heading Text"
+msgstr ""
+
+#: elements/gradient-heading/class-element-gradient-heading.php:35
+msgid "Write content for the Heading"
+msgstr ""
+
+#: elements/gradient-heading/class-element-gradient-heading.php:41
+msgid "Heading text font size here. Example, 22"
+msgstr ""
+
+#: elements/gradient-heading/class-element-gradient-heading.php:47
+msgid "Font Weight"
+msgstr ""
+
+#: elements/gradient-heading/class-element-gradient-heading.php:48
+msgid "Heading text font weight here. Example, 700"
+msgstr ""
+
+#: elements/gradient-heading/class-element-gradient-heading.php:54
+msgid "Line Height"
+msgstr ""
+
+#: elements/gradient-heading/class-element-gradient-heading.php:55
+msgid "Heading text font line height here. Example, 1.8"
+msgstr ""
+
+#: elements/gradient-heading/class-element-gradient-heading.php:62
+msgid "Gradient Angle"
+msgstr ""
+
+#: elements/gradient-heading/class-element-gradient-heading.php:63
+msgid "Specify gradient angle in degree unit. No need to add deg. Example: 90 or -180"
+msgstr ""
+
+#: elements/gradient-heading/class-element-gradient-heading.php:75
+msgid "Stoppage 1"
+msgstr ""
+
+#: elements/gradient-heading/class-element-gradient-heading.php:76
+msgid "First stoppage for primary color. Example: 0"
+msgstr ""
+
+#: elements/gradient-heading/class-element-gradient-heading.php:88
+msgid "Stoppage 2"
+msgstr ""
+
+#: elements/gradient-heading/class-element-gradient-heading.php:89
+msgid "Last stoppage for primary color. Example: 50"
+msgstr ""
+
+#: elements/heading/class-element-heading.php:19
+msgid "Element plus heading"
+msgstr ""
+
+#: elements/heading/class-element-heading.php:49
+msgid "Custom Design ( Size, Color & Align )"
+msgstr ""
+
+#: elements/heading/class-element-heading.php:54
+msgid "Heading Alignment"
+msgstr ""
+
+#: elements/heading/class-element-heading.php:67
+msgid "Sub Title Size"
+msgstr ""
+
+#: elements/heading/class-element-heading.php:68
+msgid "Enter sub title font size here. Example, 22px"
+msgstr ""
+
+#: elements/heading/class-element-heading.php:75
+msgid "Title Size"
+msgstr ""
+
+#: elements/heading/class-element-heading.php:76
+msgid "Enter title font size here. Example, 52px"
+msgstr ""
+
+#: elements/heading/class-element-heading.php:83
+msgid "Short Description Size"
+msgstr ""
+
+#: elements/heading/class-element-heading.php:84
+msgid "Enter short desc font size here. Example, 18px"
+msgstr ""
+
+#: elements/heading/class-element-heading.php:90
+msgid "Sub Title Color"
+msgstr ""
+
+#: elements/heading/class-element-heading.php:104
+msgid "Short Description Color"
+msgstr ""
+
+#: elements/image-compare/class-element-image-compare.php:25
+msgid "Element plus image compare"
+msgstr ""
+
+#: elements/image-compare/class-element-image-compare.php:43
+#: elements/image-compare/class-element-image-compare.php:48
+#: elements/pricing/class-element-pricing.php:43
+msgid "Image"
+msgstr ""
+
+#: elements/info-box/class-element-info-box.php:19
+msgid "Element plus info box"
+msgstr ""
+
+#: elements/info-box/class-element-info-box.php:38
+msgid "If checked, info box will have featured."
+msgstr ""
+
+#: elements/info-box/class-element-info-box.php:39
+msgid "Featured"
+msgstr ""
+
+#: elements/info-box/class-element-info-box.php:50
+msgid "Count Text"
+msgstr ""
+
+#: elements/info-box/class-element-info-box.php:62
+msgid "Info box title here."
+msgstr ""
+
+#: elements/info-box/class-element-info-box.php:80
+#: elements/social-profile/class-element-social-profile.php:43
+msgid "URL (Link)"
+msgstr ""
+
+#: elements/info-box/class-element-info-box.php:88
+msgid "This color will apply on text, icon"
+msgstr ""
+
+#: elements/info-box/class-element-info-box.php:97
+msgid "Button Text Color"
+msgstr ""
+
+#: elements/info-box/class-element-info-box.php:109
+#: elements/team/class-element-team.php:110
+msgid "Choose icon primary color for this info box."
+msgstr ""
+
+#: elements/info-box/class-element-info-box.php:120
+#: elements/team/class-element-team.php:121
+msgid "Choose icon secondary color for this info box."
+msgstr ""
+
+#: elements/info-box/views/template-1.php:15
+msgid "Info Box Title"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:19
+msgid "Element plus logo carousel"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:35
+#: includes/classes/class-functions.php:434
+msgid "Prev/Next Arrows?"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:36
+#: elements/logo-carousel/class-element-logo-carousel.php:43
+#: includes/classes/class-functions.php:435
+#: includes/classes/class-functions.php:442
+#: includes/classes/class-functions.php:450
+msgid "Yes"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:37
+#: elements/logo-carousel/class-element-logo-carousel.php:44
+#: elements/logo-carousel/class-element-logo-carousel.php:52
+#: elements/logo-carousel/class-element-logo-carousel.php:59
+#: elements/logo-carousel/class-element-logo-carousel.php:66
+#: elements/logo-carousel/class-element-logo-carousel.php:74
+#: elements/logo-carousel/class-element-logo-carousel.php:81
+msgid "Carousel Options"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:42
+#: includes/classes/class-functions.php:441
+msgid "Show dot indicators for navigation?"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:49
+#: elements/thumb-gallery/class-element-thumb-gallery.php:34
+#: includes/classes/class-functions.php:448
+msgid "Autoplay?"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:50
+#: elements/thumb-gallery/class-element-thumb-gallery.php:35
+#: includes/classes/class-functions.php:449
+msgid "Should the carousel autoplay as in a slideshow."
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:51
+#: elements/thumb-gallery/class-element-thumb-gallery.php:36
+msgid "No"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:57
+#: elements/thumb-gallery/class-element-thumb-gallery.php:42
+#: includes/classes/class-functions.php:456
+msgid "Autoplay speed"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:64
+#: elements/thumb-gallery/class-element-thumb-gallery.php:49
+#: includes/classes/class-functions.php:463
+msgid "Slide Animation Speed"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:71
+#: elements/thumb-gallery/class-element-thumb-gallery.php:56
+#: includes/classes/class-functions.php:470
+msgid "Pause on Hover"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:72
+#: elements/thumb-gallery/class-element-thumb-gallery.php:57
+#: includes/classes/class-functions.php:471
+msgid "Should the slider pause on mouse hover over the slider."
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:79
+#: includes/classes/class-functions.php:478
+msgid "Gutter"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:86
+msgid "Item Padding"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:87
+msgid "Format: Top Right Bottom Left. Example: 10px 0 10px 0 | Default: 0 0 0 0"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:92
+msgid "Item Radius"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:99
+msgid "Control Color"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:105
+msgid "Control Background"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:111
+msgid "Control Hover Color"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:117
+msgid "Control Hover/Active Background"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:123
+msgid "Control Radius"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:132
+#: includes/classes/class-functions.php:485
+msgid "Desktop View"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:137
+#: elements/logo-carousel/class-element-logo-carousel.php:147
+#: elements/logo-carousel/class-element-logo-carousel.php:157
+#: includes/classes/class-functions.php:490
+#: includes/classes/class-functions.php:500
+#: includes/classes/class-functions.php:510
+msgid "Responsive"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:142
+#: includes/classes/class-functions.php:495
+msgid "Tablet View"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:152
+#: includes/classes/class-functions.php:505
+msgid "Mobile View"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:174
+msgid "Logo image"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:179
+msgid "URL (s)"
+msgstr ""
+
+#: elements/logo-carousel/class-element-logo-carousel.php:184
+msgid "Item Background Color"
+msgstr ""
+
+#: elements/marquee/class-element-marquee.php:25
+msgid "Element plus marquee"
+msgstr ""
+
+#: elements/marquee/views/template-1.php:12
+#: elements/newsticker/views/template-1.php:12
+msgid "Latest News"
+msgstr ""
+
+#: elements/modal/class-element-modal.php:19
+msgid "Element plus modal box"
+msgstr ""
+
+#: elements/modal/class-element-modal.php:34
+msgid "Listener ID"
+msgstr ""
+
+#: elements/modal/class-element-modal.php:35
+msgid "Add any hash-id as click listener to popup this modal box. Example: #open-modal"
+msgstr ""
+
+#: elements/modal/class-element-modal.php:40
+msgid "Box Title"
+msgstr ""
+
+#: elements/modal/class-element-modal.php:45
+msgid "Box Content"
+msgstr ""
+
+#: elements/modal/class-element-modal.php:50
+msgid "Animation Effects"
+msgstr ""
+
+#: elements/modal/class-element-modal.php:52
+msgid "Fade"
+msgstr ""
+
+#: elements/modal/class-element-modal.php:53
+msgid "Zoom"
+msgstr ""
+
+#: elements/modal/class-element-modal.php:54
+msgid "Newspaper"
+msgstr ""
+
+#: elements/modal/class-element-modal.php:55
+msgid "Horizontal Move"
+msgstr ""
+
+#: elements/modal/class-element-modal.php:56
+msgid "Move from Top"
+msgstr ""
+
+#: elements/modal/class-element-modal.php:57
+msgid "3D Unfold"
+msgstr ""
+
+#: elements/modal/class-element-modal.php:59
+#: elements/modal/class-element-modal.php:70
+msgid "Modal Options"
+msgstr ""
+
+#: elements/modal/class-element-modal.php:63
+msgid "Options"
+msgstr ""
+
+#: elements/modal/class-element-modal.php:66
+msgid "Hide Close Button"
+msgstr ""
+
+#: elements/modal/class-element-modal.php:67
+msgid "Close Button Position - Inside"
+msgstr ""
+
+#: elements/modal/class-element-modal.php:68
+msgid "Close on Background Click"
+msgstr ""
+
+#: elements/newsticker/class-element-newsticker.php:25
+msgid "Element plus Newsticker"
+msgstr ""
+
+#: elements/portfolio/class-element-portfolio.php:19
+msgid "Element plus portfolio"
+msgstr ""
+
+#: elements/portfolio/class-element-portfolio.php:49
+msgid "Portfolio (s)"
+msgstr ""
+
+#: elements/portfolio/class-element-portfolio.php:54
+#: elements/promotion/class-element-promotion.php:38
+#: elements/thumb-gallery/class-element-thumb-gallery.php:94
+msgid "Select Image"
+msgstr ""
+
+#: elements/portfolio/class-element-portfolio.php:59
+msgid "Title & Link"
+msgstr ""
+
+#: elements/portfolio/class-element-portfolio.php:64
+msgid "Author"
+msgstr ""
+
+#: elements/portfolio/class-element-portfolio.php:69
+msgid "Category"
+msgstr ""
+
+#: elements/portfolio/class-element-portfolio.php:74
+msgid "Hire Me Button"
+msgstr ""
+
+#: elements/portfolio/class-element-portfolio.php:79
+#: elements/team/class-element-team.php:85
+#: includes/classes/class-functions.php:730
+msgid "Social Profile"
+msgstr ""
+
+#: elements/portfolio/class-element-portfolio.php:84
+#: elements/pricing/class-element-pricing.php:52
+#: elements/pricing/class-element-pricing.php:65
+#: elements/team/class-element-team.php:90
+msgid "Select Icon"
+msgstr ""
+
+#: elements/portfolio/class-element-portfolio.php:93
+#: elements/team/class-element-team.php:100
+msgid "Label & URL (s)"
+msgstr ""
+
+#: elements/portfolio/class-element-portfolio.php:95
+#: elements/team/class-element-team.php:102
+msgid "Add team profile url(s)"
+msgstr ""
+
+#: elements/post-grid/class-element-post-grid.php:25
+msgid "Element plus post grid"
+msgstr ""
+
+#: elements/post-grid/class-element-post-grid.php:70
+#: elements/timeline/class-element-timeline.php:58
+msgid "Button Text"
+msgstr ""
+
+#: elements/post-grid/class-element-post-grid.php:75
+msgid "Readmore Style"
+msgstr ""
+
+#: elements/post-grid/class-element-post-grid.php:78
+msgid "Style 1"
+msgstr ""
+
+#: elements/post-grid/class-element-post-grid.php:79
+msgid "Style 2"
+msgstr ""
+
+#: elements/post-grid/views/template-1.php:12
+#: elements/post-grid/views/template-2.php:12
+#: elements/post-grid/views/template-3.php:12
+#: elements/timeline/views/template-1.php:12
+#: elements/timeline/views/template-2.php:12
+msgid "Read More"
+msgstr ""
+
+#: elements/post-grid/views/template-2.php:160
+msgid "Story By"
+msgstr ""
+
+#: elements/post-grid/views/template-3.php:118
+msgid "No Comments"
+msgstr ""
+
+#: elements/post-grid/views/template-3.php:118
+msgid "One Comment"
+msgstr ""
+
+#: elements/post-grid/views/template-3.php:118
+msgid "% Comments"
+msgstr ""
+
+#: elements/pricing/class-element-pricing.php:19
+msgid "Element plus pricing plan"
+msgstr ""
+
+#: elements/pricing/class-element-pricing.php:40
+msgid "Icon Type"
+msgstr ""
+
+#: elements/pricing/class-element-pricing.php:42
+#: includes/classes/class-functions.php:64
+#: includes/classes/class-functions.php:78
+#: includes/classes/class-functions.php:95
+#: includes/classes/class-functions.php:112
+#: includes/classes/class-functions.php:128
+#: includes/classes/class-functions.php:145
+msgid "Icon"
+msgstr ""
+
+#: elements/pricing/class-element-pricing.php:75
+msgid "Currency symbol"
+msgstr ""
+
+#: elements/pricing/class-element-pricing.php:80
+msgid "Regular Price"
+msgstr ""
+
+#: elements/pricing/class-element-pricing.php:85
+msgid "Sale Price"
+msgstr ""
+
+#: elements/pricing/class-element-pricing.php:95
+msgid "Highlighted Text"
+msgstr ""
+
+#: elements/pricing/class-element-pricing.php:109
+msgid "Feature Text"
+msgstr ""
+
+#: elements/pricing/class-element-pricing.php:115
+msgid "Disable this feature"
+msgstr ""
+
+#: elements/pricing/class-element-pricing.php:121
+#: includes/classes/class-functions.php:614
+msgid "Button"
+msgstr ""
+
+#: elements/pricing/class-element-pricing.php:126
+msgid "Configuration"
+msgstr ""
+
+#: elements/pricing/class-element-pricing.php:129
+msgid "Make this pricing featured"
+msgstr ""
+
+#: elements/pricing/class-element-pricing.php:130
+msgid "Hide feature icons"
+msgstr ""
+
+#: elements/pricing/class-element-pricing.php:155
+msgid "Button Hover"
+msgstr ""
+
+#: elements/products-carousel/class-element-products-carousel.php:25
+msgid "Element plus products carousel"
+msgstr ""
+
+#: elements/products-grid/class-element-products-grid.php:25
+msgid "Element plus products grid"
+msgstr ""
+
+#: elements/progressbar/class-element-progressbar.php:19
+msgid "Element plus progressbar"
+msgstr ""
+
+#: elements/progressbar/class-element-progressbar.php:47
+msgid "Start Label"
+msgstr ""
+
+#: elements/progressbar/class-element-progressbar.php:53
+msgid "Enter starting label here."
+msgstr ""
+
+#: elements/progressbar/class-element-progressbar.php:60
+#: elements/progresspie/class-element-progresspie.php:48
+msgid "Enter only number value here. length 0% - 100%"
+msgstr ""
+
+#: elements/progressbar/class-element-progressbar.php:65
+msgid "End Label"
+msgstr ""
+
+#: elements/progressbar/class-element-progressbar.php:71
+msgid "Enter end label here."
+msgstr ""
+
+#: elements/progressbar/class-element-progressbar.php:75
+msgid "Bar Image"
+msgstr ""
+
+#: elements/progressbar/class-element-progressbar.php:85
+#: elements/progresspie/class-element-progresspie.php:85
+msgid "Label Color"
+msgstr ""
+
+#: elements/progressbar/class-element-progressbar.php:91
+msgid "Bar Image Background"
+msgstr ""
+
+#: elements/progressbar/class-element-progressbar.php:111
+#: elements/progresspie/class-element-progresspie.php:99
+msgid "Bar Color"
+msgstr ""
+
+#: elements/progresspie/class-element-progresspie.php:19
+msgid "Element plus progresspie"
+msgstr ""
+
+#: elements/progresspie/class-element-progresspie.php:56
+msgid "Bar Size"
+msgstr ""
+
+#: elements/progresspie/class-element-progresspie.php:57
+msgid "This value will apply in pixel unit. Default: 10px"
+msgstr ""
+
+#: elements/progresspie/class-element-progresspie.php:67
+msgid "Line Cap"
+msgstr ""
+
+#: elements/progresspie/class-element-progresspie.php:69
+msgid "Butt"
+msgstr ""
+
+#: elements/progresspie/class-element-progresspie.php:70
+msgid "Round"
+msgstr ""
+
+#: elements/progresspie/class-element-progresspie.php:71
+msgid "Square"
+msgstr ""
+
+#: elements/progresspie/class-element-progresspie.php:78
+msgid "Value Color"
+msgstr ""
+
+#: elements/progresspie/class-element-progresspie.php:92
+msgid "Track Color"
+msgstr ""
+
+#: elements/progresspie/class-element-progresspie.php:106
+msgid "Fill Color"
+msgstr ""
+
+#: elements/promotion/class-element-promotion.php:19
+msgid "Element plus promotion banner"
+msgstr ""
+
+#: elements/promotion/class-element-promotion.php:53
+msgid "Button URL (s)"
+msgstr ""
+
+#: elements/promotion/class-element-promotion.php:60
+msgid "Reposition banner using Padding with this format: Top Right Bottom Left. Example: 10px 0 10px 0 | Default: 0 0 0 0"
+msgstr ""
+
+#: elements/promotion/class-element-promotion.php:65
+msgid "Banner Min Height"
+msgstr ""
+
+#: elements/promotion/class-element-promotion.php:80
+msgid "Promo Background"
+msgstr ""
+
+#: elements/promotion/class-element-promotion.php:86
+msgid "Button Color"
+msgstr ""
+
+#: elements/promotion/class-element-promotion.php:92
+msgid "Button Background"
+msgstr ""
+
+#: elements/promotion/class-element-promotion.php:99
+msgid "Image Margin"
+msgstr ""
+
+#: elements/promotion/class-element-promotion.php:100
+msgid "Reposition image using Margin with this format: Top Right Bottom Left. Example: 10px 0 -15px -5px | Default: 0 0 0 0"
+msgstr ""
+
+#: elements/promotion/class-element-promotion.php:106
+msgid "Image Padding"
+msgstr ""
+
+#: elements/promotion/class-element-promotion.php:107
+msgid "Reposition image using Padding with this format: Top Right Bottom Left. Example: 10px 0 -15px -5px | Default: 0 0 0 0"
+msgstr ""
+
+#: elements/promotion/class-element-promotion.php:112
+msgid "Image Max Width"
+msgstr ""
+
+#: elements/promotion/class-element-promotion.php:114
+msgid "Default: auto, Example: 520px"
+msgstr ""
+
+#: elements/promotion/class-element-promotion.php:120
+msgid "Image Position"
+msgstr ""
+
+#: elements/promotion/views/template-1.php:14
+msgid "Promotion Title"
+msgstr ""
+
+#: elements/promotion/views/template-1.php:15
+msgid "Promotion Sub Title"
+msgstr ""
+
+#: elements/qr-code/class-element-qr-code.php:19
+#: includes/classes/class-functions.php:726
+msgid "QR Code"
+msgstr ""
+
+#: elements/qr-code/class-element-qr-code.php:79
+msgid "URL"
+msgstr ""
+
+#: elements/qr-code/class-element-qr-code.php:85
+msgid "Pattern"
+msgstr ""
+
+#: elements/qr-code/class-element-qr-code.php:91
+msgid "Eye Patterns - Outer"
+msgstr ""
+
+#: elements/qr-code/class-element-qr-code.php:97
+msgid "Eye Patters - Inner"
+msgstr ""
+
+#: elements/qr-code/class-element-qr-code.php:103
+msgid "Add your Logo"
+msgstr ""
+
+#: elements/qr-code/class-element-qr-code.php:104
+msgid "Logo might not work if you are creating element from Local or Offline server that is not publicly accessable."
+msgstr ""
+
+#: elements/qr-code/class-element-qr-code.php:111
+msgid "Choose primary color for this info box."
+msgstr ""
+
+#: elements/qr-code/class-element-qr-code.php:119
+msgid "Choose secondary color for this info box."
+msgstr ""
+
+#: elements/qr-code/class-element-qr-code.php:124
+msgid "Background Color"
+msgstr ""
+
+#: elements/qr-code/class-element-qr-code.php:126
+msgid "Choose background color for this info box."
+msgstr ""
+
+#: elements/schedules/class-element-schedules.php:19
+msgid "Element plus business schedules"
+msgstr ""
+
+#: elements/schedules/class-element-schedules.php:37
+msgid "Schedules Status Image"
+msgstr ""
+
+#: elements/schedules/class-element-schedules.php:60
+msgid "All Schedules"
+msgstr ""
+
+#: elements/schedules/class-element-schedules.php:62
+msgid "Schedules"
+msgstr ""
+
+#: elements/schedules/class-element-schedules.php:66
+msgid "Day Name"
+msgstr ""
+
+#: elements/schedules/class-element-schedules.php:67
+msgid "Add a day name. You can add any range of days too. Example: Saturday or Saturday - Thursday"
+msgstr ""
+
+#: elements/schedules/class-element-schedules.php:72
+msgid "Day Schedules"
+msgstr ""
+
+#: elements/schedules/class-element-schedules.php:77
+msgid "Opening time"
+msgstr ""
+
+#: elements/schedules/class-element-schedules.php:79
+msgid "10:00 AM"
+msgstr ""
+
+#: elements/schedules/class-element-schedules.php:83
+msgid "Closing time"
+msgstr ""
+
+#: elements/schedules/class-element-schedules.php:85
+msgid "05:00 PM"
+msgstr ""
+
+#: elements/schedules/views/template-1.php:42
+msgid "Schedules Status"
+msgstr ""
+
+#: elements/social-profile/class-element-social-profile.php:19
+msgid "Element plus social profile"
+msgstr ""
+
+#: elements/social-profile/class-element-social-profile.php:38
+msgid "Social Item (s)"
+msgstr ""
+
+#: elements/table/class-element-table.php:19
+msgid "Element plus table"
+msgstr ""
+
+#: elements/table/class-element-table.php:34
+msgid "Select a Table"
+msgstr ""
+
+#: elements/tabs/class-element-tabs.php:19
+msgid "Element plus tabs"
+msgstr ""
+
+#: elements/tabs/class-element-tabs.php:35
+#: includes/classes/class-functions.php:748
+msgid "Tabs"
+msgstr ""
+
+#: elements/tabs/class-element-tabs.php:50
+msgid "Enter you tab content here. Custom HTML markup allowed"
+msgstr ""
+
+#: elements/team/class-element-team.php:19
+msgid "Element plus team"
+msgstr ""
+
+#: elements/team/class-element-team.php:41
+#: elements/testimonial/class-element-testimonial.php:41
+msgid "Team Image"
+msgstr ""
+
+#: elements/team/class-element-team.php:43
+#: elements/testimonial/class-element-testimonial.php:43
+msgid "Select image from media library."
+msgstr ""
+
+#: elements/team/class-element-team.php:48
+#: elements/testimonial/class-element-testimonial.php:48
+msgid "Name"
+msgstr ""
+
+#: elements/team/class-element-team.php:54
+#: elements/testimonial/class-element-testimonial.php:54
+msgid "Designation"
+msgstr ""
+
+#: elements/team/class-element-team.php:59
+msgid "Tel No"
+msgstr ""
+
+#: elements/team/class-element-team.php:68
+msgid "Email"
+msgstr ""
+
+#: elements/team/views/template-1.php:12 elements/team/views/template-2.php:15
+#: elements/team/views/template-3.php:12 elements/team/views/template-4.php:13
+#: elements/team/views/template-5.php:13 elements/team/views/template-6.php:12
+#: elements/testimonial/views/template-1.php:11
+#: elements/testimonial/views/template-2.php:11
+#: elements/testimonial/views/template-3.php:11
+#: elements/testimonial/views/template-4.php:12
+#: elements/testimonial/views/template-5.php:11
+msgid "James Smith"
+msgstr ""
+
+#: elements/team/views/template-1.php:13 elements/team/views/template-2.php:16
+#: elements/team/views/template-3.php:13 elements/team/views/template-4.php:14
+#: elements/team/views/template-5.php:14 elements/team/views/template-6.php:13
+#: elements/testimonial/views/template-1.php:12
+#: elements/testimonial/views/template-2.php:12
+#: elements/testimonial/views/template-3.php:12
+#: elements/testimonial/views/template-4.php:13
+#: elements/testimonial/views/template-5.php:12
+msgid "Developer"
+msgstr ""
+
+#: elements/team/views/template-2.php:55
+msgid "Tel:"
+msgstr ""
+
+#: elements/testimonial/class-element-testimonial.php:19
+msgid "Element plus testimonial"
+msgstr ""
+
+#: elements/testimonial/class-element-testimonial.php:58
+msgid "Review Text"
+msgstr ""
+
+#: elements/testimonial/class-element-testimonial.php:63
+msgid "Rating"
+msgstr ""
+
+#: elements/testimonial/class-element-testimonial.php:66
+msgid "No Rating"
+msgstr ""
+
+#: elements/testimonial/class-element-testimonial.php:67
+msgid "1"
+msgstr ""
+
+#: elements/testimonial/class-element-testimonial.php:68
+msgid "1.5"
+msgstr ""
+
+#: elements/testimonial/class-element-testimonial.php:69
+msgid "2"
+msgstr ""
+
+#: elements/testimonial/class-element-testimonial.php:70
+msgid "2.5"
+msgstr ""
+
+#: elements/testimonial/class-element-testimonial.php:71
+msgid "3"
+msgstr ""
+
+#: elements/testimonial/class-element-testimonial.php:72
+msgid "3.5"
+msgstr ""
+
+#: elements/testimonial/class-element-testimonial.php:73
+msgid "4"
+msgstr ""
+
+#: elements/testimonial/class-element-testimonial.php:74
+msgid "4.5"
+msgstr ""
+
+#: elements/testimonial/class-element-testimonial.php:75
+msgid "5"
+msgstr ""
+
+#: elements/testimonial/class-element-testimonial.php:81
+msgid "Recommend Text"
+msgstr ""
+
+#: elements/thumb-gallery/class-element-thumb-gallery.php:19
+msgid "Element plus thumb gallery"
+msgstr ""
+
+#: elements/thumb-gallery/class-element-thumb-gallery.php:37
+#: elements/thumb-gallery/class-element-thumb-gallery.php:44
+#: elements/thumb-gallery/class-element-thumb-gallery.php:51
+#: elements/thumb-gallery/class-element-thumb-gallery.php:59
+msgid "Slider Options"
+msgstr ""
+
+#: elements/thumb-gallery/class-element-thumb-gallery.php:64
+msgid "Thumbs Item per Row"
+msgstr ""
+
+#: elements/thumb-gallery/class-element-thumb-gallery.php:69
+#: elements/thumb-gallery/class-element-thumb-gallery.php:77
+msgid "Thumbs Options"
+msgstr ""
+
+#: elements/thumb-gallery/class-element-thumb-gallery.php:74
+msgid "Center Mode"
+msgstr ""
+
+#: elements/thumb-gallery/class-element-thumb-gallery.php:75
+msgid "It will apply on thumbs item."
+msgstr ""
+
+#: elements/timeline-horizontal/class-element-timeline-horizontal.php:26
+msgid "Element plus timeline - horizontal"
+msgstr ""
+
+#: elements/timeline-horizontal/class-element-timeline-horizontal.php:53
+#: elements/timeline/class-element-timeline.php:63
+msgid "Timeline Icons"
+msgstr ""
+
+#: elements/timeline/class-element-timeline.php:26
+msgid "Element plus timeline"
+msgstr ""
+
+#: includes/classes/class-element.php:147
+#, php-format
+msgid "Style %s"
+msgstr ""
+
+#: includes/classes/class-element.php:154
+msgid "Style"
+msgstr ""
+
+#: includes/classes/class-element.php:155
+msgid "Select style for this element"
+msgstr ""
+
+#: includes/classes/class-element.php:517
+msgid "Element Plus"
+msgstr ""
+
+#: includes/classes/class-functions.php:51
+msgid "Icon library"
+msgstr ""
+
+#: includes/classes/class-functions.php:53
+msgid "Font Awesome"
+msgstr ""
+
+#: includes/classes/class-functions.php:54
+msgid "Open Iconic"
+msgstr ""
+
+#: includes/classes/class-functions.php:55
+msgid "Typicons"
+msgstr ""
+
+#: includes/classes/class-functions.php:56
+msgid "Entypo"
+msgstr ""
+
+#: includes/classes/class-functions.php:57
+msgid "Linecons"
+msgstr ""
+
+#: includes/classes/class-functions.php:58
+msgid "Mono Social"
+msgstr ""
+
+#: includes/classes/class-functions.php:60
+msgid "Select icon library."
+msgstr ""
+
+#: includes/classes/class-functions.php:74
+msgid "Select icon for this element"
+msgstr ""
+
+#: includes/classes/class-functions.php:91
+#: includes/classes/class-functions.php:108
+#: includes/classes/class-functions.php:141
+#: includes/classes/class-functions.php:158
+msgid "Select icon for this element."
+msgstr ""
+
+#: includes/classes/class-functions.php:176
+#: includes/classes/class-functions.php:261
+#: includes/classes/class-functions.php:346
+msgid "Content Type"
+msgstr ""
+
+#: includes/classes/class-functions.php:180
+msgid "By Posts"
+msgstr ""
+
+#: includes/classes/class-functions.php:181
+msgid "By Latest Posts"
+msgstr ""
+
+#: includes/classes/class-functions.php:182
+msgid "By Category"
+msgstr ""
+
+#: includes/classes/class-functions.php:183
+msgid "By Tags"
+msgstr ""
+
+#: includes/classes/class-functions.php:184
+#: includes/classes/class-functions.php:269
+#: includes/classes/class-functions.php:354
+msgid "Custom"
+msgstr ""
+
+#: includes/classes/class-functions.php:188
+#: includes/classes/class-functions.php:198
+msgid "Please select posts that will appear"
+msgstr ""
+
+#: includes/classes/class-functions.php:193
+msgid "Select Posts"
+msgstr ""
+
+#: includes/classes/class-functions.php:207
+#: includes/classes/class-functions.php:292
+#: includes/classes/class-functions.php:377
+msgid "Select Categories"
+msgstr ""
+
+#: includes/classes/class-functions.php:213
+msgid "Select categories of posts"
+msgstr ""
+
+#: includes/classes/class-functions.php:222
+#: includes/classes/class-functions.php:307
+#: includes/classes/class-functions.php:392
+msgid "Select Tags"
+msgstr ""
+
+#: includes/classes/class-functions.php:228
+msgid "Select tags of posts"
+msgstr ""
+
+#: includes/classes/class-functions.php:237
+msgid "Post IDs"
+msgstr ""
+
+#: includes/classes/class-functions.php:238
+msgid "Add any post ids of any post types. If multiple use comma to separate them. Example: 1023,201,239"
+msgstr ""
+
+#: includes/classes/class-functions.php:265
+#: includes/classes/class-functions.php:350
+msgid "By Products"
+msgstr ""
+
+#: includes/classes/class-functions.php:266
+#: includes/classes/class-functions.php:351
+msgid "By Latest Products"
+msgstr ""
+
+#: includes/classes/class-functions.php:267
+#: includes/classes/class-functions.php:352
+msgid "By Products Category"
+msgstr ""
+
+#: includes/classes/class-functions.php:268
+#: includes/classes/class-functions.php:353
+msgid "By Products Tags"
+msgstr ""
+
+#: includes/classes/class-functions.php:273
+#: includes/classes/class-functions.php:283
+#: includes/classes/class-functions.php:358
+#: includes/classes/class-functions.php:368
+msgid "Please select products that will appear"
+msgstr ""
+
+#: includes/classes/class-functions.php:278
+#: includes/classes/class-functions.php:363
+msgid "Select Products"
+msgstr ""
+
+#: includes/classes/class-functions.php:298
+#: includes/classes/class-functions.php:383
+msgid "Select categories of products"
+msgstr ""
+
+#: includes/classes/class-functions.php:313
+#: includes/classes/class-functions.php:398
+msgid "Select tags of products"
+msgstr ""
+
+#: includes/classes/class-functions.php:322
+#: includes/classes/class-functions.php:407
+msgid "Product IDs"
+msgstr ""
+
+#: includes/classes/class-functions.php:323
+#: includes/classes/class-functions.php:408
+msgid "Add any product ids of any product types. If multiple use comma to separate them. Example: 1023,201,239"
+msgstr ""
+
+#: includes/classes/class-functions.php:598
+msgid "Accordion"
+msgstr ""
+
+#: includes/classes/class-functions.php:602
+msgid "Advanced Heading"
+msgstr ""
+
+#: includes/classes/class-functions.php:606
+msgid "Banner"
+msgstr ""
+
+#: includes/classes/class-functions.php:610
+msgid "Business Schedules"
+msgstr ""
+
+#: includes/classes/class-functions.php:618
+msgid "Charts"
+msgstr ""
+
+#: includes/classes/class-functions.php:622
+msgid "Countdown Timer"
+msgstr ""
+
+#: includes/classes/class-functions.php:626
+msgid "Counter"
+msgstr ""
+
+#: includes/classes/class-functions.php:630
+msgid "EDD Products"
+msgstr ""
+
+#: includes/classes/class-functions.php:638
+#: includes/classes/class-functions.php:706
+#: includes/classes/class-functions.php:720
+#: includes/classes/class-functions.php:742
+msgid "plugin is required to make this element working."
+msgstr ""
+
+#: includes/classes/class-functions.php:644
+msgid "Gradient Heading"
+msgstr ""
+
+#: includes/classes/class-functions.php:648
+msgid "Image Compare"
+msgstr ""
+
+#: includes/classes/class-functions.php:652
+msgid "Info Box"
+msgstr ""
+
+#: includes/classes/class-functions.php:656
+msgid "Logo Carousel"
+msgstr ""
+
+#: includes/classes/class-functions.php:659
+msgid "Logo item"
+msgstr ""
+
+#: includes/classes/class-functions.php:662
+msgid "Marquee"
+msgstr ""
+
+#: includes/classes/class-functions.php:666
+msgid "Modal Box"
+msgstr ""
+
+#: includes/classes/class-functions.php:670
+msgid "Newsticker"
+msgstr ""
+
+#: includes/classes/class-functions.php:674
+msgid "Portfolio"
+msgstr ""
+
+#: includes/classes/class-functions.php:678
+msgid "Post Grid"
+msgstr ""
+
+#: includes/classes/class-functions.php:682
+msgid "Pricing Plan"
+msgstr ""
+
+#: includes/classes/class-functions.php:686
+msgid "Progressbar"
+msgstr ""
+
+#: includes/classes/class-functions.php:690
+msgid "Progress Pie"
+msgstr ""
+
+#: includes/classes/class-functions.php:694
+msgid "Promotion Banner"
+msgstr ""
+
+#: includes/classes/class-functions.php:698
+msgid "Products Grid"
+msgstr ""
+
+#: includes/classes/class-functions.php:712
+msgid "Products Carousel"
+msgstr ""
+
+#: includes/classes/class-functions.php:734
+msgid "Table"
+msgstr ""
+
+#: includes/classes/class-functions.php:752
+msgid "Teams"
+msgstr ""
+
+#: includes/classes/class-functions.php:756
+msgid "Testimonial"
+msgstr ""
+
+#: includes/classes/class-functions.php:760
+msgid "Timeline"
+msgstr ""
+
+#: includes/classes/class-functions.php:764
+msgid "Timeline - Horizontal"
+msgstr ""
+
+#: includes/classes/class-functions.php:768
+msgid "Thumb Gallery"
+msgstr ""
+
+#: includes/classes/class-functions.php:771
+msgid "Thumb Gallery Item"
+msgstr ""
+
+#: includes/classes/class-hooks.php:135
+msgid "plugin is required for Element Plus"
+msgstr ""
+
+#: includes/classes/class-hooks.php:137
+msgid "Get it Now"
+msgstr ""
+
+#: includes/functions.php:120
+msgid "Something went wrong !"
+msgstr ""

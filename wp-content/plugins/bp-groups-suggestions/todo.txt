@@ -1,0 +1,15 @@
+TODO - Various brainstroming ideas, feel free to build them.
+1. Make it use BP-component
+2. The widget should extend or override BP groups widget
+3. A tab into the user profile ->groups, visible only to login user
+4. On/off checkboxes on group suggestion page where login user can select from which user groups he should get suggestions.
+5. Add count of friends etc participating in each suggested group.
+6. Add feature "Suggest this groups to friends" and "Groups sugggested by friends"
+7. Add more apply_filters ex. on group suggestion not found
+8. Administration pages for super admin, from which he can:
+    - set the last activity date, in order a group to be suggested
+    - add suggested groups,
+    - exclude groups from suggestion list,
+    - view statistics on hidden groups,
+    - define featured groups (Other plugin ?)
+ 

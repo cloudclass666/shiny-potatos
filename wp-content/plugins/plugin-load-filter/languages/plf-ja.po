@@ -1,0 +1,278 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plf\n"
+"POT-Creation-Date: 2019-12-02 17:31+0900\n"
+"PO-Revision-Date: 2019-12-02 17:36+0900\n"
+"Last-Translator: Yasunari Enomoto <enomoto@celtislab.net>\n"
+"Language-Team: \n"
+"Language: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#. Description of the plugin/theme
+msgid ""
+"Dynamically activate the selected plugins for each page. Response will be "
+"faster by filtering plugins."
+msgstr ""
+"ページタイプや投稿毎に選択したプラグインを動的に有効化することが出来ます。プ"
+"ラグインをフィルタリングするとレスポンスが高速化します。"
+
+#: ../plugin-load-filter.php:227
+msgid "Plugin Load Filter"
+msgstr ""
+
+#: ../plugin-load-filter.php:343 ../plugin-load-filter.php:357
+msgid ""
+"There are invalid characters in Keyword. Use characters include "
+"Alphanumeric, Hyphens, Underscores, slash, dot, question, equal, percent sign"
+msgstr ""
+"入力したキーワードに不正な文字があります［有効文字：半角英数字, ハイフォン"
+"（-）, アンダースコア（_）, スラッシュ（/）, ドット（.）, クエスチョン（?）, "
+"イコール（=）, パーセント（%）］"
+
+#: ../plugin-load-filter.php:506 ../plugin-load-filter.php:662
+#: ../plugin-load-filter.php:846
+msgid "Plugins"
+msgstr ""
+
+#: ../plugin-load-filter.php:507
+#, fuzzy
+msgid "URL Filter for Expert"
+msgstr "エキスパート用URLフィルタ"
+
+#: ../plugin-load-filter.php:508
+msgid "Page Type Filter"
+msgstr "Page Type フィルタ"
+
+#: ../plugin-load-filter.php:511
+msgid "REST API"
+msgstr ""
+
+#: ../plugin-load-filter.php:512
+msgid "Heartbeat"
+msgstr ""
+
+#: ../plugin-load-filter.php:513
+msgid "Ajax"
+msgstr ""
+
+#: ../plugin-load-filter.php:527
+msgid "Normal Mode"
+msgstr "Normal Mode"
+
+#: ../plugin-load-filter.php:528
+msgid "Admin Page"
+msgstr "Admin Page"
+
+#: ../plugin-load-filter.php:529
+msgid "Page Type"
+msgstr "Page Type"
+
+#: ../plugin-load-filter.php:585
+msgid ""
+"Normally all are active. It is used when there is a plugin that you want to "
+"deactive specially for requests such as REST API, Ajax, AMP, etc."
+msgstr ""
+"通常はすべて有効で使用します。 REST API、Ajax、AMPなどのリクエストに対して特"
+"別に停止したいプラグインがある場合に使用します。"
+
+#: ../plugin-load-filter.php:586
+msgid ""
+"REST API / Ajax / AMP / URL page judgment is done from REQUEST URI with "
+"regular expressions including keyword.  <code>(/|&|\\.|\\?|=)keyword(/|&|\\.|"
+"\\?|=|$)</code>"
+msgstr ""
+"REST API, Ajax, AMP または URLフィルタは REQUEST URL に含まれるキーワードを次"
+"の正規表現で判定します  <code>(/|&|\\.|\\?|=)キーワード(/|&|\\.|\\?|=|$)</"
+"code>"
+
+#: ../plugin-load-filter.php:587
+msgid ""
+"AMP / URL Setting the keyword enables the filter. [Valid characters: "
+"alphanumeric characters, hyphens (-), underscores (_), slash (/), dot(.), "
+"question(?), equal(=), percent sign(%) ]"
+msgstr ""
+"キーワードを設定するとURLフィルター機能が有効化されます　［有効文字：半角英数"
+"字, ハイフォン（-）, アンダースコア（_）, スラッシュ（/）, ドット（.）, クエ"
+"スチョン（?）, イコール（=）, パーセント（%）］"
+
+#: ../plugin-load-filter.php:589
+msgid "AMP keyword filter"
+msgstr "AMP キーワードフィルター"
+
+#: ../plugin-load-filter.php:592
+msgid ""
+"In many cases, it is identified with \"amp\". (*AMP page display requires "
+"AMP plugin or theme)"
+msgstr ""
+"多くの場合 \"amp\" キーワードで識別できます（AMPページの表示には別途 AMPプラ"
+"グインや対応しているテーマが必要です）"
+
+#: ../plugin-load-filter.php:604
+msgid ""
+"URL keyword filter (Register URL matching judgment keywords separated by "
+"line breaks)"
+msgstr ""
+"URL キーワードフィルター（URL一致判定キーワードを改行毎に区切って登録）"
+
+#: ../plugin-load-filter.php:609
+msgid "Plugins load without Page Type Filtering."
+msgstr "Page Type フィルタリングせずにプラグインを通常ロードします"
+
+#: ../plugin-load-filter.php:610
+msgid "Plugins to be used only in admin page."
+msgstr "管理作業等のページのみで使用されるプラグインとして設定します"
+
+#: ../plugin-load-filter.php:612
+msgid "Plugins for selecting whether to activate each Page type or Post."
+msgstr "ページタイプや投稿毎に有効化の選択対象とするプラグインとして設定します"
+
+#: ../plugin-load-filter.php:613
+msgid ""
+"Selected page type filter plugins are once blocked, but is activated by "
+"\"Page Type filter Activation\" setting."
+msgstr ""
+"ここに設定されたプラグインは一旦ブロックされますが、Page Type フィルタ有効プ"
+"ラグイン選択の設定条件に応じて有効化されます"
+
+#: ../plugin-load-filter.php:615
+msgid "Exclude Post Format Type"
+msgstr "除外する投稿フォーマットタイプ"
+
+#: ../plugin-load-filter.php:616
+msgid ""
+"Choose Post Format Type you are not using. To exclude from Page Type Filter "
+"item subject."
+msgstr ""
+"使用していない投稿フォーマットタイプを選択すれば Page Type フィルタの表示項目"
+"から除外されます"
+
+#: ../plugin-load-filter.php:663 ../plugin-load-filter.php:847
+msgid "Desktop Device"
+msgstr "デスクトップデバイス"
+
+#: ../plugin-load-filter.php:664 ../plugin-load-filter.php:848
+msgid "Mobile Device"
+msgstr "モバイルデバイス"
+
+#: ../plugin-load-filter.php:665
+msgid "Home/Front-page"
+msgstr "ホーム/フロントページ"
+
+#: ../plugin-load-filter.php:666
+msgid "Archive page"
+msgstr "アーカイブページ"
+
+#: ../plugin-load-filter.php:667
+msgid "Search page"
+msgstr "検索結果ページ"
+
+#: ../plugin-load-filter.php:668
+msgid "Attachment page"
+msgstr "添付ページ"
+
+#: ../plugin-load-filter.php:669
+msgid "Page"
+msgstr "固定ページ"
+
+#: ../plugin-load-filter.php:670 ../plugin-load-filter.php:683
+msgid "Post : "
+msgstr "投稿フォーマット : "
+
+#: ../plugin-load-filter.php:670
+msgid "Standard"
+msgstr "標準"
+
+#: ../plugin-load-filter.php:689
+msgid "WordPress Embed Content Card (API)"
+msgstr "WordPress 埋め込みコンテンツカード (API)"
+
+#: ../plugin-load-filter.php:695
+msgid "Custom Post : "
+msgstr "カスタムポスト : "
+
+#: ../plugin-load-filter.php:753
+msgid "Plugin Load Filter Settings\\nClick OK to clear it."
+msgstr "プラグインロードフィルター\\nOKをクリックすると設定をクリアします"
+
+#: ../plugin-load-filter.php:755
+msgid "Plugin Load Filter Settings"
+msgstr "プラグインロードフィルター設定"
+
+#: ../plugin-load-filter.php:759
+msgid "Filter Registration"
+msgstr "フィルター登録"
+
+#: ../plugin-load-filter.php:760
+msgid "Page Type Filter Activation"
+msgstr "Page Type フィルタ有効プラグイン選択"
+
+#: ../plugin-load-filter.php:767 ../plugin-load-filter.php:782
+msgid "Clear"
+msgstr "クリア"
+
+#: ../plugin-load-filter.php:768
+msgid "Filter Entry &raquo;"
+msgstr "フィルター登録 &raquo;"
+
+#: ../plugin-load-filter.php:778
+msgid ""
+"Select plugins to be activated for each page type by clicking on <span class="
+"\"dashicons dashicons-admin-plugins\"></span> mark from \"page type filter\" "
+"registered plugins."
+msgstr ""
+"\"Page Type フィルタ\" に設定したプラグインからページタイプ毎に有効化するプラ"
+"グインを <span class=\"dashicons dashicons-admin-plugins\"></span> マークをク"
+"リックして指定します"
+
+#: ../plugin-load-filter.php:779
+msgid ""
+"You can also select plugins to activate from Post/Page content editing "
+"screen."
+msgstr ""
+"投稿や固定ページ毎に記事編集画面からも有効化するプラグインを選択出来ます"
+
+#: ../plugin-load-filter.php:783
+msgid "Activate Plugin Entry &raquo;"
+msgstr "有効化プラグイン登録 &raquo;"
+
+#: ../plugin-load-filter.php:790 ../plugin-load-filter.php:842
+msgid "Page Filter is not registered"
+msgstr "Page Filter にプラグインが登録されていません"
+
+#: ../plugin-load-filter.php:806
+msgid "Page Filter Plugin"
+msgstr "Page Filter プラグイン"
+
+#: ../plugin-load-filter.php:902
+msgid "Not Use"
+msgstr "使用しない"
+
+#: ../plugin-load-filter.php:903
+msgid "Use"
+msgstr "使用する"
+
+#: ../plugin-load-filter.php:907
+msgid "Save"
+msgstr "保存"
+
+#~ msgid "AMP keyword (In many cases, it is identified with \"amp\")"
+#~ msgstr "AMP キーワード（多くの場合 \"amp\" キーワードで識別できます）"
+
+#~ msgid "URL filter keyword-1"
+#~ msgstr "URL 汎用フィルター１ キーワード"
+
+#~ msgid "URL filter keyword-2"
+#~ msgstr "URL 汎用フィルター２ キーワード"
+
+#~ msgid "URL filter keyword-3"
+#~ msgstr "URL 汎用フィルター３ キーワード"
+
+#~ msgid "Activate Plugins"
+#~ msgstr "有効化するプラグイン"

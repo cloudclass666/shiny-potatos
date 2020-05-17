@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SQ Theme Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-20 10:02+0000\n"
+"PO-Revision-Date: 2020-03-20 10:02+0000\n"
+"Last-Translator: Geticer <admin@nurl.ml>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: inc/seventor/plugin.php:116 inc/seventor/plugin.php:127
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#. 1: Plugin name 2: Elementor
+#: inc/seventor/plugin.php:212
+#, php-format
+msgid "%1$s requires version %3$s or greater of %2$s plugin."
+msgstr ""
+
+#: inc/seventor/plugin.php:214
+msgid "Seventor"
+msgstr ""
+
+#: inc/seventor/plugin.php:215
+msgid "Elementor"
+msgstr ""
+
+#: inc/seventor/plugin.php:225
+msgid "Update Elementor Now"
+msgstr ""
+
+#. Author of the plugin
+#: inc/seventor/plugin.php:374
+#: inc/seventor/core/template/source-seventor.php:25
+msgid "SeventhQueen"
+msgstr ""
+
+#: inc/seventor/core/library/documents/footer.php:69
+msgid "Footer"
+msgstr ""
+
+#: inc/seventor/core/library/documents/header.php:69
+msgid "Header"
+msgstr ""
+
+#. Name of the plugin
+msgid "SQ Theme Core"
+msgstr ""
+
+#. Description of the plugin
+msgid "Enables Importing, Theme options and features for SeventhQueen Themes"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://seventhqueen.com/"
+msgstr ""

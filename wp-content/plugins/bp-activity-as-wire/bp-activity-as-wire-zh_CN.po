@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress Activity as Wire\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-19 09:07+0000\n"
+"PO-Revision-Date: 2018-01-19 09:07+0000\n"
+"Last-Translator: Monicfenga <minejohn@foxmail.com>\n"
+"Language-Team: Chinese (China)\n"
+"Language: zh-CN\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: bp-activity-as-wire.php:60
+#, php-format
+msgid "Write something to %s?"
+msgstr "想对 %s 说些什么？"
+
+#: bp-activity-as-wire.php:153 bp-activity-as-wire.php:160
+#, php-format
+msgid "%s posted on %s's wall"
+msgstr "%s 对 %s 说："
+
+#. Name of the plugin
+msgid "BuddyPress Activity as Wire"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"BuddyPress Activity as wire allows you to use the @mention feature of "
+"BuddyPress activity to emulate the wall/wire experience for the users"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://buddydev.com/plugins/bp-activity-as-wire/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Brajesh Singh ( BuddyDev )"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://buddydev.com"
+msgstr ""

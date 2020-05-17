@@ -1,0 +1,150 @@
+# Copyright (C) 2014 bbPress - Report Content
+# This file is distributed under the same license as the bbPress - Report Content package.
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress - Report Content 1.0.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/bbpress-report-"
+"content\n"
+"POT-Creation-Date: 2014-11-12 13:47:12+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: classes/class-bbpress-report-content.php:158
+msgid "bbPress - Report Content requires bbPress to be activated."
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:189
+msgid ""
+"bbPress - Report Content was deactivated. This plugin requires bbPress to be "
+"activated."
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:239
+msgctxt "post"
+msgid "User Reported"
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:240
+msgctxt "post"
+msgid "User Reported <span class=\"count\">(%s)</span>"
+msgid_plural "User Reported <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-bbpress-report-content.php:259
+msgctxt "Mark topic as reported"
+msgid "Reported"
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:310
+#: classes/class-bbpress-report-content.php:620
+msgid "Report"
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:311
+#: classes/class-bbpress-report-content.php:621
+#: classes/class-bbpress-report-content.php:920
+#: classes/class-bbpress-report-content.php:1048
+msgid "Unreport"
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:335
+#: classes/class-bbpress-report-content.php:645
+msgid "Report inappropriate content"
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:403
+msgid ""
+"<strong>ERROR</strong>: There was a problem unmarking the topic as reported."
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:403
+msgid "<strong>ERROR</strong>: There was a problem reporting the topic."
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:713
+msgid ""
+"<strong>ERROR</strong>: There was a problem unmarking the reply as reported."
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:713
+msgid "<strong>ERROR</strong>: There was a problem reporting the reply."
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:867
+msgid "This topic has been reported for inappropriate content"
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:892
+msgid "<em>This reply has been reported for inappropriate content.</em>"
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:920
+msgid "Mark the topic as unreported"
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:949
+msgid "The topic was not found!"
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:952
+#: classes/class-bbpress-report-content.php:1080
+msgid "You do not have the permission to do that!"
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:1011
+msgid "There was a problem unreporting the topic \"%1$s\"."
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:1011
+msgid "Topic \"%1$s\" successfully unreported."
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:1048
+msgid "Mark the reply as unreported"
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:1077
+msgid "The reply was not found!"
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:1139
+msgid "There was a problem unreporting the reply \"%1$s\"."
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:1139
+msgid "Reply \"%1$s\" successfully unreported."
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:1165
+#: classes/class-bbpress-report-content.php:1204
+msgid "Reported By"
+msgstr ""
+
+#: classes/class-bbpress-report-content.php:1243
+msgid "Guest"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "bbPress - Report Content"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.josheaton.org/wordpress-plugins/bbpress-report-content/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Allows users to report inappropriate content in topics and replies."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Josh Eaton"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.josheaton.org/"
+msgstr ""

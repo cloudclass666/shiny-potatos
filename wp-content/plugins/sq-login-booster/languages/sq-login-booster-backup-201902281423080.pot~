@@ -1,0 +1,243 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SQ AJAX Login, Register, Lost Pass & Facebook Login\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-23 10:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.1"
+
+#: inc/ajax-login.php:87
+msgid "Customizer"
+msgstr ""
+
+#: inc/ajax-login.php:90
+msgid "Menu Items"
+msgstr ""
+
+#: inc/ajax-login.php:103
+msgid "AJAX Login"
+msgstr ""
+
+#: inc/ajax-login.php:110
+msgid "Login Modal Title"
+msgstr ""
+
+#: inc/ajax-login.php:115 inc/ajax-login.php:135
+msgid "This will show in login modal"
+msgstr ""
+
+#: inc/ajax-login.php:120
+msgid "Register Modal Title"
+msgstr ""
+
+#: inc/ajax-login.php:125
+msgid "This will show in register modal"
+msgstr ""
+
+#: inc/ajax-login.php:130
+msgid "Terms & conditions Page"
+msgstr ""
+
+#: inc/ajax-login.php:141
+msgid "AJAX Login redirect"
+msgstr ""
+
+#: inc/ajax-login.php:147
+msgid "Default: WordPress default behaviour. Reload: will reload current page."
+msgstr ""
+
+#: inc/ajax-login.php:153
+msgid "Custom link redirect"
+msgstr ""
+
+#: inc/ajax-login.php:158
+msgid ""
+"For more complex redirect logic please set Login redirect to Default "
+"WordPress and use Peter's redirect plugin or similar."
+msgstr ""
+
+#: inc/ajax-login.php:176
+msgid "Sending info, please wait.."
+msgstr ""
+
+#: inc/ajax-login.php:177
+msgid "Sorry, an error occurred"
+msgstr ""
+
+#: inc/ajax-login.php:184
+#, php-format
+msgid "You must agree with %s"
+msgstr ""
+
+#: inc/ajax-login.php:331
+#, php-format
+msgid ""
+"You are already logged in. Please <a href=\"#\" onclick=\"%s\">refresh</a> "
+"page"
+msgstr ""
+
+#: inc/ajax-login.php:368
+msgid "Wrong username or password. Please try again."
+msgstr ""
+
+#: inc/ajax-login.php:399 inc/fb-login.php:493
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: inc/ajax-login.php:460
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: inc/ajax-login.php:510
+msgid "Email successfully sent!"
+msgstr ""
+
+#: inc/ajax-login.php:536
+msgid "SQ Login"
+msgstr ""
+
+#: inc/ajax-login.php:559
+msgid "Logged-In"
+msgstr ""
+
+#: inc/ajax-login.php:563
+msgid "Log Out"
+msgstr ""
+
+#: inc/ajax-login.php:574 inc/ajax-login.php:612 inc/ajax-login.php:621
+msgid "Logged-Out"
+msgstr ""
+
+#: inc/ajax-login.php:579
+msgid "Log In"
+msgstr ""
+
+#: inc/ajax-login.php:595
+msgid "Register"
+msgstr ""
+
+#: inc/ajax-login.php:613
+msgid "<em>Logged-Out</em> links are not visible to users who are logged in."
+msgstr ""
+
+#: inc/ajax-login.php:622
+msgid "<em>Logged-in</em> links are visible only to users who are logged in."
+msgstr ""
+
+#: inc/ajax-login.php:651
+msgid "Select All"
+msgstr ""
+
+#: inc/ajax-login.php:654
+msgid "Add to Menu"
+msgstr ""
+
+#: inc/fb-login.php:90
+msgid "Facebook Login"
+msgstr ""
+
+#: inc/fb-login.php:102
+msgid "Enable Facebook Login"
+msgstr ""
+
+#: inc/fb-login.php:105
+msgid "Allow users to login with Facebook"
+msgstr ""
+
+#: inc/fb-login.php:112
+msgid "Facebook APP ID"
+msgstr ""
+
+#: inc/fb-login.php:115
+msgid "Enter you Facebook APP ID"
+msgstr ""
+
+#: inc/fb-login.php:123
+msgid "Enable registering with Facebook"
+msgstr ""
+
+#: inc/fb-login.php:126
+msgid "Allow users to register with Facebook"
+msgstr ""
+
+#: inc/fb-login.php:134
+msgid "Get users avatar from Facebook"
+msgstr ""
+
+#: inc/fb-login.php:137
+msgid "It will show avatar from Facebook is user does not have one uploaded."
+msgstr ""
+
+#: inc/fb-login.php:326
+msgid "You are already logged in."
+msgstr ""
+
+#: inc/fb-login.php:330
+msgid "Authentication required."
+msgstr ""
+
+#: inc/fb-login.php:338
+msgid "Please connect your facebook account."
+msgstr ""
+
+#: inc/fb-login.php:356
+msgid "Registration is not open at this time. Please come back later."
+msgstr ""
+
+#: inc/fb-login.php:359
+msgid ""
+"Registration using Facebook is not currently allowed. Please use our "
+"Register page"
+msgstr ""
+
+#: inc/fb-login.php:376
+msgid ""
+"Please click again to login with Facebook and allow the application to use "
+"your email address"
+msgstr ""
+
+#: inc/fb-login.php:382
+msgid ""
+"We didn't find your name. Please complete your facebook account before "
+"proceeding."
+msgstr ""
+
+#: inc/fb-login.php:505
+msgid ""
+"Thank you for registering. Please make sure to complete your profile fields "
+"below."
+msgstr ""
+
+#: inc/fb-login.php:645
+msgid "Log in with Facebook"
+msgstr ""
+
+#: inc/fb-login.php:663
+msgid "or"
+msgstr ""
+
+#. Name of the plugin
+msgid "SQ AJAX Login, Register, Lost Pass & Facebook Login"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Adds Modal Login, Register, Lost Password & Facebook Login functionality"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://seventhqueen.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "SeventhQueen"
+msgstr ""

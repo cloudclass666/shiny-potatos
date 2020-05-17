@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bp-group-suggest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-19 14:37+0200\n"
+"PO-Revision-Date: 2014-08-19 14:38+0200\n"
+"Last-Translator: Lena Stergatu <stergatu@cti.gr>\n"
+"Language-Team: \n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\blogsRun\\wp-content\\plugins\\bp-"
+"group-suggestions\n"
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-group-suggest.php:247
+#, php-format
+msgid "active %s"
+msgstr "τελευταία ενέργεια στις %s"
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-group-suggest.php:265
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/groups/suggested_groups.php:65
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:42
+msgid "We don't have enough details to suggest a group yet."
+msgstr "Δεν έχουμε ακόμη αρκετά στοιχεία για να σας προτείνουμε ομάδες."
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-group-suggest.php:279
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-suggest-functions.php:172
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-suggest-functions.php:173
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-suggest-functions.php:188
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-suggest-functions.php:189
+msgid "Hide this suggestion"
+msgstr "Δεν με ενδιαφέρει"
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-group-suggest.php:291
+#, php-format
+msgid "You have %s removed groups from suggestions"
+msgstr "Δεν σας ενδιαφέρουν %s ομάδες  "
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-group-suggest.php:293
+msgid "Reset groups suggestions"
+msgstr "Εμφάνιση όλων"
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-group-suggest.php:307
+msgid "The group has been removed from the suggested groups"
+msgstr "Η ομάδα αφαιρέθηκε από αυτές που ίσως σας ενδιαφέρουν."
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-suggest-functions.php:31
+msgid "your's friends groups"
+msgstr "ομάδες φίλων "
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/bp-suggest-functions.php:207
+msgid "You have previously select that you are not interested for this group."
+msgstr "Δεν σας ενδιαφέρει αυτή η ομάδα (σύμφωνα με παλιότερη επιλογή σας)."
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/groups/suggested_groups.php:13
+#, php-format
+msgid "Suggested Groups <span>%s</span>"
+msgstr "Ίσως σας ενδιαφέρουν <span>%s</span>"
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/groups/suggested_groups.php:34
+msgid "The suggested groups are based on: "
+msgstr "Tα αποτελέσματα περιέχουν: "
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/groups/suggested_groups.php:65
+msgid "Try make some more friends, first."
+msgstr "Κάντε πρώτα μερικούς φίλους."
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:14
+msgid "Group Suggestion Widget"
+msgstr "Ομάδες που ίσως σας ενδιαφέρουν"
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:15
+msgid "Suggest groups for logged in user"
+msgstr "Προτάσεις ομάδων για το συνδεδεμένο χρήστη"
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:43
+msgid "Try make some more friends, first"
+msgstr "Κάντε πρώτα μερικούς φίλους."
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:49
+msgid "See more suggestions"
+msgstr "Περισσότερες ομάδες"
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:85
+msgid "Group Suggestions"
+msgstr "Προτεινόμενες Ομάδες"
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:93
+msgid "Title"
+msgstr "Τίτλος"
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:98
+msgid "Max Number of suggestions:"
+msgstr "Μέγιστο πλήθος προτάσεων:"
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:103
+msgid "Number of charachers of group's title:"
+msgstr "Πλήθος χαρακτήρων ονόματος ομάδας:"
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:104
+msgid "0 means that  full group title will be displayed"
+msgstr "Αφήστε το 0 για να εμφανίσετε το πλήρες όνομα της ομάδας"
+
+#: C:\xampp\htdocs\blogsRun\wp-content\plugins\bp-group-suggestions/widgets/bp-group-suggest-widget.php:109
+msgid "Show join group button?"
+msgstr "Εμφάνιση κουμπιού συμμετοχής στην ομάδα;"

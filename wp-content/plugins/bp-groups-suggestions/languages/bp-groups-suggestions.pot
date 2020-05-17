@@ -1,0 +1,88 @@
+# Copyright (C) 2013 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/bp-groups-suggestions\n"
+"POT-Creation-Date: 2013-10-30 09:36:19+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: bp-group-suggest.php:234
+msgid "active %s"
+msgstr ""
+
+#: bp-group-suggest.php:247 groups/suggested_groups.php:65
+#: widgets/bp-group-suggest-widget.php:40
+msgid "We don't have enough details to suggest a group yet."
+msgstr ""
+
+#: bp-group-suggest.php:261 bp-suggest-functions.php:168
+#: bp-suggest-functions.php:169 bp-suggest-functions.php:184
+#: bp-suggest-functions.php:185
+msgid "Hide this suggestion"
+msgstr ""
+
+#: bp-group-suggest.php:273
+msgid "You have %s removed groups from suggestions"
+msgstr ""
+
+#: bp-group-suggest.php:275
+msgid "Reset groups suggestions"
+msgstr ""
+
+#: bp-group-suggest.php:289
+msgid "The group has been removed from the suggested groups"
+msgstr ""
+
+#: bp-suggest-functions.php:31
+msgid "your's friends groups"
+msgstr ""
+
+#: bp-suggest-functions.php:203
+msgid "You have previously select that you are not interested for this group."
+msgstr ""
+
+#: groups/suggested_groups.php:13
+msgid "Suggested Groups <span>%s</span>"
+msgstr ""
+
+#: groups/suggested_groups.php:34
+msgid "The suggested groups are based on: "
+msgstr ""
+
+#: groups/suggested_groups.php:65
+msgid "Try make some more friends, first."
+msgstr ""
+
+#: widgets/bp-group-suggest-widget.php:14
+msgid "Group Suggestion Widget"
+msgstr ""
+
+#: widgets/bp-group-suggest-widget.php:15
+msgid "Suggest groups for logged in user"
+msgstr ""
+
+#: widgets/bp-group-suggest-widget.php:41
+msgid "Try make some more friends, first"
+msgstr ""
+
+#: widgets/bp-group-suggest-widget.php:47
+msgid "See more suggestions"
+msgstr ""
+
+#: widgets/bp-group-suggest-widget.php:81
+msgid "Group Suggestions"
+msgstr ""
+
+#: widgets/bp-group-suggest-widget.php:86
+msgid "Title"
+msgstr ""
+
+#: widgets/bp-group-suggest-widget.php:91
+msgid "Max Number of suggestions:"
+msgstr ""

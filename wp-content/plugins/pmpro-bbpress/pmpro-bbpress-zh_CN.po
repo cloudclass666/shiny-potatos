@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Paid Memberships Pro - bbPress Add On\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-21 11:57+0000\n"
+"PO-Revision-Date: 2020-03-21 11:57+0000\n"
+"Last-Translator: Geticer <admin@nurl.ml>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#. Name of the plugin
+msgid "Paid Memberships Pro - bbPress Add On"
+msgstr ""
+
+#. Description of the plugin
+msgid "Allow individual forums to be locked down for members."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.paidmembershipspro.com/add-ons/pmpro-bbpress/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Stranger Studios, Scott Sousa"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.paidmembershipspro.com"
+msgstr ""

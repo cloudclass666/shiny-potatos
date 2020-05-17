@@ -1,0 +1,154 @@
+# Copyright (C) 2015 Brozzme Material Loading
+# This file is distributed under the same license as the Brozzme Material Loading package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Brozzme Material Loading\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/brozzme-material-loading\n"
+"POT-Creation-Date: 2016-05-09 06:51:17+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-05-09 15:42+0100\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Last-Translator: Benoît Faure <dev@brozme.com>\n"
+"Language-Team: Benoti <dev@brozzme.com>\n"
+"Language: fr_FR\n"
+"X-Generator: Poedit 1.7.4\n"
+
+#: brozzme_material_loading.php:52
+msgid "Material loading"
+msgstr ""
+
+#: brozzme_material_loading.php:107
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/brozzme_material_loading_settings.php:17
+msgid "General settings option for Brozzme Material Loading"
+msgstr "Options générales pour Brozzme Material Loading"
+
+#: includes/brozzme_material_loading_settings.php:23
+msgid "Enable Material loading"
+msgstr "Activer les effets de chargement automatiques"
+
+#: includes/brozzme_material_loading_settings.php:30
+msgid "Home page color"
+msgstr "Couleur pour la page d'accueil"
+
+#: includes/brozzme_material_loading_settings.php:37
+msgid "Bar color"
+msgstr "Couleur dominante"
+
+#: includes/brozzme_material_loading_settings.php:44
+msgid "Bar height"
+msgstr "Hauteur de la barre"
+
+#: includes/brozzme_material_loading_settings.php:51
+msgid "Special template"
+msgstr "Customisation"
+
+#: includes/brozzme_material_loading_settings.php:58
+msgid "Always show bar"
+msgstr "Toujours afficher la barre"
+
+#: includes/brozzme_material_loading_settings.php:65
+msgid "Help for Brozzme Material Loading"
+msgstr "Aide de Brozzme Material Loading"
+
+#: includes/brozzme_material_loading_settings.php:71
+msgid "Help"
+msgstr "Aide"
+
+#: includes/brozzme_material_loading_settings.php:79
+msgid "Help / FAQ "
+msgstr "Aide / FAQ"
+
+#: includes/brozzme_material_loading_settings.php:91
+#: includes/brozzme_material_loading_settings.php:147
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/brozzme_material_loading_settings.php:92
+#: includes/brozzme_material_loading_settings.php:148
+msgid "No"
+msgstr "Non"
+
+#: includes/brozzme_material_loading_settings.php:124
+msgid "Minimal"
+msgstr ""
+
+#: includes/brozzme_material_loading_settings.php:125
+msgid "Flash"
+msgstr ""
+
+#: includes/brozzme_material_loading_settings.php:126
+msgid "Bounce"
+msgstr ""
+
+#: includes/brozzme_material_loading_settings.php:127
+msgid "Center circle"
+msgstr ""
+
+#: includes/brozzme_material_loading_settings.php:128
+msgid "Center atom"
+msgstr ""
+
+#: includes/brozzme_material_loading_settings.php:129
+msgid "Center simple"
+msgstr ""
+
+#: includes/brozzme_material_loading_settings.php:130
+msgid "Center radar"
+msgstr ""
+
+#: includes/brozzme_material_loading_settings.php:131
+msgid "Loading bar"
+msgstr ""
+
+#: includes/brozzme_material_loading_settings.php:132
+msgid "Corner indicator"
+msgstr ""
+
+#: includes/brozzme_material_loading_settings.php:133
+msgid "Big counter"
+msgstr ""
+
+#: includes/brozzme_material_loading_settings.php:134
+msgid "Flat top"
+msgstr ""
+
+#: includes/brozzme_material_loading_settings.php:135
+msgid "Fill left"
+msgstr ""
+
+#: includes/brozzme_material_loading_settings.php:136
+msgid "Barber shop"
+msgstr ""
+
+#: includes/brozzme_material_loading_settings.php:137
+msgid "Macosx"
+msgstr ""
+
+#: includes/brozzme_material_loading_settings.php:151
+msgid "Only apply to top bar (minimal, flash)"
+msgstr "S'applique uniquement à Minimal et Flash"
+
+#: includes/brozzme_material_loading_settings.php:156
+msgid "Settings for automatic loading bar"
+msgstr "Réglages des animations automatiques"
+
+#: includes/brozzme_material_loading_settings.php:173
+msgid "General settings"
+msgstr "Options générales"
+
+#. Plugin Name of the plugin/theme
+msgid "Brozzme Material Loading"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add a material design like loading bar with PACE.js"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Benoti,"
+msgstr ""
