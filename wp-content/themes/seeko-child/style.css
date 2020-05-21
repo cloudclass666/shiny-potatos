@@ -61,8 +61,14 @@ body::-webkit-scrollbar-track {
     margin-right: .25em;
 	font-size: inherit;
 }
-.dropdown-menu {
-	min-width: 8rem;
+
+#seekoMainMenu > ul > li .dropdown-menu {
+    min-width: initial;
+}
+
+#seekoMainMenu > ul > li.svq-ajax-avatar-nav .dropdown-menu {
+    left: inherit;
+    right: 0;
 }
 ul.navbar-nav li.menu-item i.icon {
     margin-right: .0625em;
@@ -848,6 +854,9 @@ li.bbp-forum-reply-count:before {content: "\e91a";margin-right: 0.25em;color: #1
     font-size: 85%;
 }
 
+#bbpress-forums div.bbp-forum-author .bbp-author-role, #bbpress-forums div.bbp-reply-author .bbp-author-role, #bbpress-forums div.bbp-topic-author .bbp-author-role {
+    display: none;
+}
 /* bbp-voting */
 .bbp-voting {
     margin: 0;
