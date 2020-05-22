@@ -54,6 +54,10 @@ body::-webkit-scrollbar-track {
     background: rgba(255,255,255,0.93);
 }
 
+#header+.content-wrapper {
+    margin-top: 60px;
+}
+
 #seekoMainMenu > ul > li .dropdown-menu {
     min-width: initial;
 }
