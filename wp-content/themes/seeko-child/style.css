@@ -10,7 +10,30 @@ License: GNU General Public License
 License URI: license.txt
 */
 :root{
---font-family-sans-serif: Noto Sans CJK SC,Sourse Han Sans CN,"思源黑体 CN",Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;}
+    --blue: #1890ff;
+    --indigo: #2f54eb;
+    --purple: #9254de;
+    --pink: #eb2f96;
+    --red: #f5222d;
+    --orange: #fa8c16;
+    --yellow: #fadb14;
+    --green: #a0d911;
+    --teal: #52c41a;
+    --cyan: #13c2c2;
+    --white: #fff;
+    --gray: #bfbfbf;
+    --gray-dark: #262626;
+    --primary: #1890ff;
+    --secondary: #2f54eb;
+    --success: #52c41a;
+    --info: #13c2c2;
+    --warning: #faad14;
+    --danger: #f5222d;
+    --light: #F8F8F8;
+    --dark: #000;
+    --tertiary: #722ed1;
+    --font-family-sans-serif: Noto Sans CJK SC,Sourse Han Sans CN,"思源黑体 CN",Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+}
 html {
 font-family:var(--font-family-sans-serif);
 }
