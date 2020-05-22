@@ -1112,3 +1112,7 @@ li.just-posted {animation:just-posted 10s 1;}
     margin-left: 4rem;
 }
 }
+
+.type-bp_members,.type-bp_group {
+    padding-top: 60px;
+}
