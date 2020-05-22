@@ -97,6 +97,17 @@ body::-webkit-scrollbar-track {
     color: initial;
 }
 
+#seekoMainMenu .current-menu-item .svq-menu-avatar-img {
+    border: 1px solid;
+    padding: 2px;
+}
+
+#seekoMainMenu .current-menu-item .dropdown-menu .current_page_item a:before {
+    width: 0.75rem;
+    background: #1890ff;
+    box-shadow: 0 1px 3px 0 rgba(24,144,255,0.4);
+}
+
 ul.navbar-nav li.menu-item i.icon {
     margin-right: .0625em;
 	font-size: 1.4em;
@@ -201,9 +212,11 @@ div.bbp-template-notice,
 .page .page-title {
 	text-align: center;
 }
-/*
-* Please add your custom styles below
-*/
+
+p.aiowps-captcha {
+    display: none;
+}
+
 .pricing-card .pricing-title,
 .pricing-card .pricing-description,
 .pricing-card .pricing-price {
