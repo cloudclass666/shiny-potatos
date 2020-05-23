@@ -385,12 +385,12 @@ body.register.buddypress .editfield label {
 #bbpress-forums .mce-toolbar .mce-btn-group .mce-btn:hover,
 #bbpress-forums .qt-dfw:focus,
 .qt-dfw:hover {
-    background: #EEE;
-    color: #34A3DB;
+    background: transparent;
+    color: #40a9ff;
 }
 
 #bbpress-forums .mce-btn.mce-active button i {
-    color: #008CDC;
+    color: #1890ff;
 }
 
 #bbpress-forums .mce-btn.mce-active {
@@ -419,7 +419,6 @@ body.register.buddypress .editfield label {
 
 #bbpress-forums .tmce-active button.switch-tmce,
 #bbpress-forums .html-active button.switch-html {
-    border-bottom: 1px solid #1890ff !important;
     background: #FAFAFA !important;
     color: #1890ff !important;
 }
