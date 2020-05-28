@@ -9,6 +9,34 @@ Tags:  buddypress
 License: GNU General Public License
 License URI: license.txt
 */
+:root{
+    --blue: #1890ff;
+    --indigo: #2f54eb;
+    --purple: #9254de;
+    --pink: #eb2f96;
+    --red: #f5222d;
+    --orange: #fa8c16;
+    --yellow: #fadb14;
+    --green: #a0d911;
+    --teal: #52c41a;
+    --cyan: #13c2c2;
+    --white: #fff;
+    --gray: #bfbfbf;
+    --gray-dark: #262626;
+    --primary: #1890ff;
+    --secondary: #2f54eb;
+    --success: #52c41a;
+    --info: #13c2c2;
+    --warning: #faad14;
+    --danger: #f5222d;
+    --light: #F8F8F8;
+    --dark: #000;
+    --tertiary: #722ed1;
+    --font-family-sans-serif: Noto Sans CJK SC,Sourse Han Sans CN,"思源黑体 CN",Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+}
+html {
+font-family:var(--font-family-sans-serif);
+}
 @media (min-width: 767px) {
 ::-webkit-scrollbar {
     width: 10px;
@@ -42,24 +70,15 @@ body::-webkit-scrollbar-track {
 	background: #bae7ff
 }
 
-#DBdebug {
-    font-size: 1.6rem;
+#header {
     position: fixed;
-    bottom: 0;
-    left: 0;
-    opacity: 0.1;
-    background: #fff;
-    padding: 0.2rem 1rem;
-    border-radius: 1rem;
+    top: 0px;
+    width: 100%;
+    background: rgba(255,255,255,0.93);
 }
 
-#DBdebug:hover {
-    opacity: 1;
-}
-
-.bbp-topic-meta .icon {
-    margin-right: .25em;
-	font-size: inherit;
+#header+.content-wrapper {
+    margin-top: 60px;
 }
 
 #seekoMainMenu > ul > li .dropdown-menu {
@@ -70,6 +89,25 @@ body::-webkit-scrollbar-track {
     left: inherit;
     right: 0;
 }
+#seekoMainMenu .current-menu-item a {
+    color: #1890ff;
+}
+
+#seekoMainMenu .current-menu-item a > i {
+    color: initial;
+}
+
+#seekoMainMenu .current-menu-item .svq-menu-avatar-img {
+    border: 1px solid;
+    padding: 2px;
+}
+
+#seekoMainMenu .current-menu-item .dropdown-menu .current_page_item a:before {
+    width: 0.75rem;
+    background: #1890ff;
+    box-shadow: 0 1px 3px 0 rgba(24,144,255,0.4);
+}
+
 ul.navbar-nav li.menu-item i.icon {
     margin-right: .0625em;
 	font-size: 1.4em;
@@ -121,6 +159,10 @@ body.error404 h6 {
     font-size: 1em;
 }
 
+.bbp-topic-meta .icon {
+    margin-right: .25em;
+	font-size: inherit;
+}
 .bp_members #item-buttons #post-mention,
 li#home-groups-li,
 div.bbp-template-notice,
@@ -170,9 +212,11 @@ div.bbp-template-notice,
 .page .page-title {
 	text-align: center;
 }
-/*
-* Please add your custom styles below
-*/
+
+p.aiowps-captcha {
+    display: none;
+}
+
 .pricing-card .pricing-title,
 .pricing-card .pricing-description,
 .pricing-card .pricing-price {
@@ -237,18 +281,14 @@ body.register.buddypress .editfield label {
 }
 
 /* page numbers */
+/*
 .page-numbers.current {
     padding: 10px 15px;
     background-color: #00B3EF;
     color: #FFF!important;
     border-radius: 50%!important;
 }
-
-.bbp-topic-pagination:before {
-    font-family: icomoon;
-    font-size: 90%;
-    content: '\\e9ae';
-}
+*/
 
 #bbpress-forums .bbp-forums .bbp-body ul.topic li.bbp-topic-title .bbp-topic-meta .bbp-topic-started-by {
     font-size: 13px;
@@ -345,12 +385,12 @@ body.register.buddypress .editfield label {
 #bbpress-forums .mce-toolbar .mce-btn-group .mce-btn:hover,
 #bbpress-forums .qt-dfw:focus,
 .qt-dfw:hover {
-    background: #EEE;
-    color: #34A3DB;
+    background: transparent;
+    color: #40a9ff;
 }
 
 #bbpress-forums .mce-btn.mce-active button i {
-    color: #008CDC;
+    color: #1890ff;
 }
 
 #bbpress-forums .mce-btn.mce-active {
@@ -379,7 +419,6 @@ body.register.buddypress .editfield label {
 
 #bbpress-forums .tmce-active button.switch-tmce,
 #bbpress-forums .html-active button.switch-html {
-    border-bottom: 1px solid #1890ff !important;
     background: #FAFAFA !important;
     color: #1890ff !important;
 }
@@ -1071,4 +1110,8 @@ li.just-posted {animation:just-posted 10s 1;}
 .activity-header {
     margin-left: 4rem;
 }
+}
+
+.type-bp_members,.type-bp_group {
+    padding-top: 60px;
 }
