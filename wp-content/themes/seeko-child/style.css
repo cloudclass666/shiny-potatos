@@ -74,7 +74,7 @@ body::-webkit-scrollbar-track {
     position: fixed;
     top: 0px;
     width: 100%;
-    background: rgba(255,255,255,0.93);
+    background: rgba(255,255,255,0.93)!important;
 }
 
 #header+.content-wrapper {
@@ -1046,22 +1046,30 @@ select#bp_mymood_mood {
 }
 
 .bp-mymood-member-meta {
-    background-image: none;
+    background-image: none!important;
     background: #fff;
     box-shadow: 0 0.25rem 1rem 0 rgba(212,212,212,0.26);
     width: 100%;
     color: rgba(38,38,38,.7);
     border-color: rgba(245,245,245,.3);
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1rem!important;
     line-height: 1.6;
-    border-radius: .42rem;
+    border-radius: .42rem!important;
 }
 .bp-mymood-member-meta:hover {
     background-image: none;
     color: rgba(38,38,38,1);
 }
+.bp-mymood-member-meta .smiley {
+    width: 2em!important;
+    height: auto!important;
+}
 
-#bp-mymood-option.bp-mymood-option #bp-mymood-smiley-popup:before {content: "选择一个表情";display: block;text-align: center;}
+#bp-mymood-option.bp-mymood-option #bp-mymood-smiley-popup:before {
+    content: "选择一个表情";
+    display: block;
+    text-align: center;
+}
 
 /*****---------- 3.6 Better more button ----------*****/
 .activity-list>li.load-newest {
