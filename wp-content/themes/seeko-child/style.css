@@ -1123,17 +1123,3 @@ li.just-posted {animation:just-posted 10s 1;}
 .type-bp_members,.type-bp_group {
     padding-top: 60px;
 }
-
-/* */
-@font-face {
-    font-family: "851 Handwritten";
-    src: url('https://www.cloudclass.ml/usr/851tegaki_zatsu_normal.ttf');
-}
-    
-:root {
-    --font-family-sans-serif:"851tegakizatsu","851 Handwritten",cursive,Noto Sans CJK SC,Sourse Han Sans CN,"思源黑体 CN",Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
-}
-    
-* {
-    font-display: swap!important;
-}
