@@ -70,6 +70,21 @@ body::-webkit-scrollbar-track {
 	background: #bae7ff
 }
 
+button, a {
+  transition: 0.125s ease-out all
+}
+
+button, a {
+outline: 1px solid transparent;
+  outline-offset: 1em;
+}
+
+button:focus, a:focus {
+outline: 3px solid #061178;
+  outline-offset: 0;
+}
+
+
 #header {
     position: fixed;
     top: 0px;
