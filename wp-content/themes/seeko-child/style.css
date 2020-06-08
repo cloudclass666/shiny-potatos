@@ -70,6 +70,7 @@ body::-webkit-scrollbar-track {
 	background: #bae7ff
 }
 
+@media screen and (min-width: 1200px) {
 button, a {
   transition: 0.125s ease-out all
 }
@@ -83,7 +84,7 @@ button:focus, a:focus {
 outline: 3px solid #061178;
   outline-offset: 0;
 }
-
+}
 
 #header {
     position: fixed;
