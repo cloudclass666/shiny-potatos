@@ -1139,3 +1139,33 @@ li.just-posted {animation:just-posted 10s 1;}
 .type-bp_members,.type-bp_group {
     padding-top: 60px;
 }
+
+.bboss_search_page buddypress-wrap .bboss_search_form_wrapper form * {
+    display:  flex;
+}
+
+.bboss_search_form_wrapper form label, .bboss_search_form_wrapper form input.search-field {flex:5}
+
+.bboss_search_form_wrapper form input.search-submit {flex:1}
+
+.bboss_search_results_wrapper .search_filters ul {
+    display:  flex;
+    justify-content: center;
+}
+
+.bboss_search_page .bboss_search_item .item-avatar {
+    margin-top: 0!important;
+}
+
+.bboss-results-wrap .friendship-button a {
+    transition:  unset;
+    left:  unset;
+    position:  initial;
+}
+
+.bboss-results-list .item-desc strong {
+padding: .15rem .5rem;
+    background: #fff566;
+    font-weight: normal;
+    border-radius: 6px;
+}
