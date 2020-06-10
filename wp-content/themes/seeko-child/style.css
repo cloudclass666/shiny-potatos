@@ -971,6 +971,36 @@ li.bbp-forum-reply-count:before {content: "\e91a";margin-right: 0.25em;color: #1
     display: none;
 }
 
+.bbp-topics .bbp-topic-container .bbp-topic-title > .bbp-voting {
+    float: none!important;
+    margin: 0!important;
+    padding: 0;
+    position:  absolute;
+    left: 2em;
+    opacity:0;
+    transition:all 0.2s ease-in-out;
+}
+
+.bbp-topics .bbp-topic-container .bbp-topic-title > .bbp-voting .vote {
+    display:  none;
+}
+
+.bbp-topics .bbp-topic-container .bbp-topic-title > .bbp-voting .score {
+    font-weight:  normal;
+    font-size: 0.8rem;
+    background: #87e8de;
+    min-width: 1rem;
+    min-height: 1rem;
+    border-radius: 1rem 0 1rem 1rem;
+    line-height: 1;
+    padding: 0.2rem 0.4rem;
+    text-align:  right;
+}
+
+.bbp-topics .bbp-topic-container:hover .bbp-voting {
+    opacity:0.8;
+}
+
 /* mymood */
 
 #bp-mymood-option {
