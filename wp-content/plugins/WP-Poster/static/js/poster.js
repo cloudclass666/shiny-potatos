@@ -5,6 +5,8 @@
 
 // 大胡子 | 2020年01月10日 | 修改版 | https://xinthemg.com
 
+// Geticer | 2020年6月26日 | 修改版 | https://www.cloudclass.ml
+
 define(function (){
 	"use strict";
 	// post class
@@ -29,12 +31,14 @@ define(function (){
 			
 			var date = new Date(); 
 			// 日
+/*
 			var dayStyle = {
 				font: 'italic bold 70px Arial',
 				color: 'rgba(255, 255, 255, 1)',
 				position: 'left'
 			};
 			drawOneline($day, dayStyle, date.getDate()); 
+*/
 			// 年月
 			var dateStyle = {
 				font: 'normal 30px Arial',
@@ -61,7 +65,7 @@ define(function (){
 				color: 'rgba(88, 88, 88, 1)',
 				position: 'left',
 				lineHeight: 1.5,
-				maxHeight: 210
+				maxHeight: 240
 			};
 			contentStyle.font = config.contentStyle && config.contentStyle.font || contentStyle.font;
 			contentStyle.color = config.contentStyle && config.contentStyle.color || contentStyle.color;
@@ -75,7 +79,7 @@ define(function (){
 				color: 'rgb(255, 167, 0)',
 				position: 'left',
 				lineHeight: 1.5,
-				maxHeight: 72
+				maxHeight: 32
 			};
 			postmetaStyle.font = config.postmetaStyle && config.postmetaStyle.font || postmetaStyle.font;
 			postmetaStyle.color = config.postmetaStyle && config.postmetaStyle.color || postmetaStyle.color;
@@ -86,8 +90,8 @@ define(function (){
 
 			// 文章发布时间 / 年-月
 			var posttimeymStyle = {
-				font: 'normal 30px Arial',
-				color: 'rgba(255, 255, 255, 1)',
+				font: 'normal 24px Arial',
+				color: 'rgba(26, 214, 172, 1)',
 				position: 'left'
 			};
 			posttimeymStyle.font = config.posttimeymStyle && config.posttimeymStyle.font || posttimeymStyle.font;
@@ -96,6 +100,7 @@ define(function (){
 			drawMoreLines($posttimeym, posttimeymStyle, config.posttimeym);
 
 			// 文章发布时间 / 日
+/*
 			var posttimedStyle = {
 				font: 'italic bold 70px Arial',
 				color: 'rgba(255, 255, 255, 1)',
@@ -105,7 +110,7 @@ define(function (){
 			posttimedStyle.color = config.posttimedStyle && config.posttimedStyle.color || posttimedStyle.color;
 			posttimedStyle.position = config.posttimedStyle && config.posttimedStyle.position || posttimedStyle.position;
 			drawMoreLines($posttimed, posttimedStyle, config.posttimed);
-
+*/
 			// 宣传标语
 			var descriptionStyle = {
 				font: 'normal 24px Arial',
@@ -154,42 +159,28 @@ define(function (){
 					ctx.fillRect(0, 0, $canvas.width, $canvas.height);
 
 					// 绘制 Banner 图片
-					ctx.drawImage(banner, 0, $canvas.height / 3 - 427, 720 ,500);
+					ctx.drawImage(banner, 0, $canvas.height * 0.3164 - 427, 720 ,426);
 
 					// 绘制灰色遮罩
-					ctx.fillStyle="#00000052";	
-					ctx.globalCompositeOperation="source-over";
-					ctx.fillRect(0, $canvas.height / 3 - 427, 720 ,500);
 
 					// 绘制文章发布时间
-					ctx.drawImage($posttimed, 175, $canvas.height / 3 - 60);
-					ctx.drawImage($posttimeym, 10, $canvas.height / 3 - 40);
+					ctx.drawImage($posttimeym, 10, $canvas.height * 0.3164 + 15);
 
-					ctx.lineWidth = 3;
-					ctx.strokeStyle = '#fff';
-					ctx.moveTo(30, $canvas.height / 3 + 1);
-					ctx.lineTo(185, $canvas.height / 3 +1);
-					ctx.stroke(); 
-					ctx.beginPath();
-					ctx.lineWidth = 5;
-					ctx.strokeStyle = '#fff';
-					ctx.moveTo(30, $canvas.height / 3 + 10);
-					ctx.lineTo(265, $canvas.height / 3 +10);
-					ctx.stroke();
 
 					// 绘制文章内容
-					ctx.drawImage($title, 10, $canvas.height / 3 + 120);
-					ctx.drawImage($content, 10, $canvas.height / 3 + 220);
-					ctx.drawImage($postmeta, 10, $canvas.height / 3 + 430);
+					ctx.drawImage($title, 10, $canvas.height / 2 - 118);
+					ctx.drawImage($content, 10, $canvas.height / 2 - 16);
+
+					ctx.drawImage($postmeta, 10, $canvas.height * 0.3164 + 15);
 
 					// 绘制 Logo 图片
-					ctx.drawImage(logo, 30, $canvas.height / 3 + 650, 244 , 80);
+					ctx.drawImage(logo, 64, $canvas.height - 275, 244 , 80);
 
 					// 绘制二维码图片
-					ctx.drawImage(qrcode, 510, $canvas.height / 3 + 620, 185 , 185);
+					ctx.drawImage(qrcode, 455, $canvas.height - 264, 200 , 200);
 
 					// logo标语
-					ctx.drawImage($description, 10, $canvas.height - 100,);
+					ctx.drawImage($description, 10, $canvas.height - 180);
 
 					var img = new Image();
 					img.src = $canvas.toDataURL('image/png');
@@ -278,10 +269,10 @@ define(function (){
 				alignX = canvas.width / 2;
 			} else if (style.position === 'left') {
 				ctx.textAlign = 'left';
-				alignX = 20;
+				alignX = 55;
 			} else {
 				ctx.textAlign = 'right';
-				alignX = canvas.width - 60;
+				alignX = canvas.width - 70;
 			}
 			var lineWidth = 0;
 			var lastSubStrIndex = 0;
@@ -290,7 +281,7 @@ define(function (){
 				// 累加字体长度（px）
 				lineWidth += ctx.measureText(content[i]).width;
 				// 字体长度满一行后绘制
-				if (lineWidth > canvas.width - 80) {
+				if (lineWidth > canvas.width - 165) {
 					ctx.fillText(content.substring(lastSubStrIndex, i), alignX, offsetY);
 					offsetY += fontHeight * style.lineHeight;
 					lineWidth = 0;
