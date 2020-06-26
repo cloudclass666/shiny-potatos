@@ -48,12 +48,10 @@ jQuery(function($){
 			// 获取文章摘要信息
 			post_desc = poster_img.excerpt ? poster_img.excerpt : '暂时没有描述信息！';    // 自动获取文章摘要信息，根据自己网站修改获取摘要方式即可
 			// 获取文章Meta信息
-			post_meta = '由 @'+poster_img.author+' 发布在《'+poster_img.cat_name+'》栏目';
-
+			post_meta = poster_img.cat_name+' | '+poster_img.author;
 			// 获取文章发布时间 / 年-月
 			post_time_ym = poster_img.time_y_m;
-			// 获取文章发布时间 / 日
-			post_time_d = poster_img.time_d;
+
 
 			// 获取站点描述信息
 			site_desc = poster_img.site_motto ? poster_img.site_motto : '君子坦荡荡，小人常戚戚';    // 自动获取网站描述信息，根据自己网站修改获取网站描述方式即可
@@ -68,8 +66,8 @@ jQuery(function($){
 				// 文章标题
 				title: post_title,
 				titleStyle:{
-					font: 'bold normal 29px Arial',
-					color: 'rgba(66, 66, 66, 1)',
+					font: 'bold normal 48px sans-serif',
+					color: 'rgba(89,89,89, 1)',
 					position: 'left',
 					lineHeight: 1.4,
 					maxHeight: 70,
@@ -77,43 +75,46 @@ jQuery(function($){
 				//文章摘要
 				content: post_desc,
 				contentStyle:{
-					font: 'normal 24px Arial',
-					color: 'rgba(88, 88, 88, 1)',
+					font: 'normal 24px sans-serif',
+					color: 'rgba(38,38,38, 1)',
 					position: 'left',
-					lineHeight: 1.5,
-					maxHeight: 174,
+					lineHeight: 1.6,
+					maxHeight: 338,
 				},
 				// 文章Meta
 				postmeta: post_meta,
 				postmetaStyle:{
-					font: 'normal 24px Arial',
-					color: 'rgb(255, 167, 0)',
+					font: 'normal 24px sans-serif',
+					color: 'rgb(160, 38, 255)',
 					position: 'left',
 					lineHeight: 1.5,
-					maxHeight: 72,
+					maxHeight: 32,
 				},
 				// 文章发布时间 / 年-月
 				posttimeym: post_time_ym,
 				posttimeymStyle:{
-					font: 'normal 30px Arial',
-					color: 'rgba(255, 255, 255, 1)',
-					position: 'left',
+					font: 'normal 24px sans-serif',
+					color: 'rgb(160, 38, 255)',
+					position: 'right',
+					maxHeight: 32,
 				},
 				// 文章发布时间 / 日
+/*
 				posttimed: post_time_d,
 				posttimedStyle:{
-					font: 'italic bold 70px Arial',
+					font: 'italic bold 70px sans-serif',
 					color: 'rgba(255, 255, 255, 1)',
 					position: 'left',
 				},
+*/
 				// logo标语
 				description: site_desc,
 				descriptionStyle:{
-					font: 'normal 24px Arial',
+					font: 'normal 24px sans-serif',
 					color: 'rgba(88, 88, 88, 1)',
 					position: 'left',
-					lineHeight: 1.3,
-					maxHeight: 72,
+					lineHeight: 1.6,
+					maxHeight: 128,
 				},
 				
 				callback: posterDownload
