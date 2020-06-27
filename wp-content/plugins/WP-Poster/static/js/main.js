@@ -51,7 +51,8 @@ jQuery(function($){
 			post_meta = poster_img.cat_name+' | '+poster_img.author;
 			// 获取文章发布时间 / 年-月
 			post_time_ym = poster_img.time_y_m;
-
+			// 占位符
+			post_time_d = poster_img.time_d;
 
 			// 获取站点描述信息
 			site_desc = poster_img.site_motto ? poster_img.site_motto : '君子坦荡荡，小人常戚戚';    // 自动获取网站描述信息，根据自己网站修改获取网站描述方式即可
@@ -99,14 +100,14 @@ jQuery(function($){
 					maxHeight: 32,
 				},
 				// 文章发布时间 / 日
-/*
+
 				posttimed: post_time_d,
 				posttimedStyle:{
 					font: 'italic bold 70px sans-serif',
 					color: 'rgba(255, 255, 255, 1)',
 					position: 'left',
 				},
-*/
+
 				// logo标语
 				description: site_desc,
 				descriptionStyle:{
