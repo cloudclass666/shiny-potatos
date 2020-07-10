@@ -1292,3 +1292,21 @@ padding: .15rem .5rem;
 	padding: 0.5rem;
     border-radius: 0 0 0.5rem 0.5rem;
 }
+
+#message-thread .message-box.sent-by-me {
+    flex-direction: row-reverse;
+}
+
+#message-thread .message-box.sent-by-me .message-avatar {
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+#message-thread .message-box.sent-by-me .message-metadata {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+#message-thread #send-reply {
+    padding-left: 0;
+}
