@@ -590,6 +590,11 @@ span.bbp-admin-links a {
     float: right;
 }
 
+.bbp-reply-header-meta .btn-tag {
+    margin: 0 0.2rem;
+    padding: 0.3125rem 0.6em;
+}
+
 .bbp-entry-content blockquote {
     margin: .25em 0;
     padding: .5em;
