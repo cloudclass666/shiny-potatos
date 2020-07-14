@@ -820,7 +820,7 @@ body.single-forum #bbpress-forums ul.bbp-forums li.bbp-header {
 }
 
 li.bbp-forum-reply-count:before {
-    content: "\\e91a";
+    content: "\e91a";
     margin-right: 0.25em;
     color: #13c2c2;
     font-family: 'icon' !important;
