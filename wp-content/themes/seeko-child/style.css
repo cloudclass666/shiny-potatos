@@ -496,7 +496,7 @@ body.register.buddypress .editfield label {
 /* ****---------- 2.9 bbPress - Topic List - Reload | Made By:Monicfenga 201804 ----------**** */
 .bbp-topic-author-container {
     display: inline-block;
-    float: left;
+    /*float: left;*/
     margin-left: .25em;
 }
 
@@ -829,7 +829,6 @@ li.bbp-forum-reply-count:before {
     margin-right: 0.25em;
     color: #13c2c2;
     font-family: 'icon' !important;
-    speak: none;
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
@@ -1169,20 +1168,20 @@ select#bp_mymood_mood {
 .activity-content .bp-mymood-activity-post {
     background-image: none;
     border-radius: 8px;
-    background-color: rgba(24,144,255,.1);
+    background-color: rgba(4,187,241,0.1);
     display: flex;
     width: auto;
     max-width: 16em;
     padding: .75em;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 12px 20px -16px rgba(0,132,254,.6);
+    box-shadow: 0 12px 20px -16px rgba(4, 187, 241, 0.3);
     transition: all 0.25s ease-in-out;
 }
 
 .activity-content .bp-mymood-activity-post:hover {
     background-image: none;
-    box-shadow: 0 14px 22px -14px rgba(9,137,255,.6);
+    box-shadow: 0 14px 22px -14px rgba(4, 187, 241, 0.4);
 }
 
 .activity-content .bp-mymood-activity-post .smiley {
@@ -1225,14 +1224,20 @@ select#bp_mymood_mood {
 }
 
 /* ****---------- 3.6 Better more button ----------**** */
-.activity-list>li.load-newest {
-    text-align: center;
-    padding: 0;
+
+ul.activity-list .load-more {
+    padding:  0;
 }
 
-.activity-list>li.load-newest a {
+ul.activity-list .load-more>a {
+    padding:  1rem;
+    width:  100%;
+    text-align:  center;
     display: block;
-    padding: 1rem;
+}
+
+ul.activity-list .load-more>a:before {
+    vertical-align: top;
 }
 
 @keyframes just-posted {
@@ -1275,6 +1280,10 @@ li.just-posted {
     
     .activity-header {
         margin-left: 4rem;
+    }
+    #buddypress .activity-list .activity-header .activity-time-since {
+        float:  right;
+        margin-right:  0;
     }
 }
 
