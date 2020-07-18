@@ -625,6 +625,11 @@ span.bbp-admin-links a {
     margin: 0;
 }
 
+.bbp-reply-header-meta .bp-verified-badge {
+    width: 16px;
+    height: 16px;
+}
+
 .bbp-reply-header-meta .bbp-reply-permalink {
     position: absolute;
     top: -2.2rem;
@@ -640,7 +645,7 @@ span.bbp-admin-links a {
 }
 
 .bbp-reply-header-meta .btn-tag {
-    margin: 0 0.2rem;
+    margin: -0.2rem 0.2rem 0 0.2rem;
     padding: 0.3125rem 0.6em;
 }
 
@@ -992,10 +997,6 @@ li.bbp-forum-reply-count:before {
     font-size: 85%;
 }
 
-#bbpress-forums div.bbp-forum-author .bbp-author-role,
-#bbpress-forums div.bbp-reply-author .bbp-author-role,
-#bbpress-forums div.bbp-topic-author .bbp-author-role {
-}
 .bbp-author-role {
     display: none;
     align-items: center;
