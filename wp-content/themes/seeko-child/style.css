@@ -934,12 +934,16 @@ li.bbp-forum-reply-count:before {
     box-shadow: 0 14px 22px -14px rgba(255,128,134,.6);
 }
 
-.page.bp_activity .page-title {
+.page.bp_activity .page-title， .page.bp_activity .svq-breadcrumb, .page.directory.groups .svq-breadcrumb{
     display: none;
 }
 
 .bbpress .forum .page-title {
     text-align: center;
+}
+
+.activity-type-tabs li.feed a {
+    display: none!important;
 }
 
 @keyframes side-jumping {
