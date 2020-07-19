@@ -507,7 +507,7 @@ body.register.buddypress .editfield label {
 }
 
 li.bbp-body div.hentry {
-    padding: 12px 8px;
+    padding: 12px 0px;
 }
 
 li.bbp-body div.topic {
@@ -665,6 +665,7 @@ span.bbp-admin-links a {
 #bbpress-forums div.even,
 #bbpress-forums ul.even {
     background: initial;
+
 }
 
 @media only screen and (max-width:480px) {
