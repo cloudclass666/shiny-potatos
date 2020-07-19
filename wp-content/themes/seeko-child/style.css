@@ -496,7 +496,7 @@ body.register.buddypress .editfield label {
 /* ****---------- 2.9 bbPress - Topic List - Reload | Made By:Monicfenga 201804 ----------**** */
 .bbp-topic-author-container {
     display: inline-block;
-    /*float: left;*/
+    float: left;
     margin-left: .25em;
 }
 
