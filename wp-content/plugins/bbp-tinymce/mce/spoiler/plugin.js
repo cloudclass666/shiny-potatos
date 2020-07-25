@@ -131,11 +131,11 @@ define(
         icon: false,
         text: 'spoiler',
         tooltip: 'Add Spoiler',
-        onclick: function(e) {
+        onclick: function() {
           // Insert content when the window form is submitted
 		  var selectedText = editor.selection.getContent({format: 'html'});
           
-      editor.insertContent('<p>[spoiler title="' + e.data.title + '"]</p>' );
+      editor.insertContent('<p>[spoiler]</p>' );
       if (selectedText) {
 		  editor.insertContent("<p>" + selectedText + "</p>"); 
     } else {
