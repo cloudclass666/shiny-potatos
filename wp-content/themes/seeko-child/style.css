@@ -247,6 +247,10 @@ blockquote {
     .quote-highlight blockquote:before {
         left: 1rem;
     }
+    #buddypress .activity-list .activity-header .activity-time-since {
+        float:  right;
+        margin-right:  0;
+    }
 }
 
 /* * search menu * */
@@ -1297,10 +1301,7 @@ li.just-posted {
     .activity-header {
         margin-left: 4rem;
     }
-    #buddypress .activity-list .activity-header .activity-time-since {
-        float:  right;
-        margin-right:  0;
-    }
+
 }
 
 .type-bp_members,
