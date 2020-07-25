@@ -1452,3 +1452,20 @@ li.just-posted {
 #message-thread #send-reply {
     padding-left: 0;
 }
+
+/* Ajax Login modal anim. */
+.modal-backdrop {
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0 0 calc(25vw + 25vh) #000 inset;
+}
+.svq-login:hover:before, .svq-register:hover:before, .svq-lost-pass:hover:before {
+    transform: rotate(15deg);
+}
+
+.svq-login:hover:after, .svq-register:hover:after, .svq-lost-pass:hover:after {
+        transform: rotate(-25deg);
+}
+.svq-login:before, .svq-register:before, .svq-lost-pass:before,
+.svq-login:after, .svq-register:after, .svq-lost-pass:after{
+    transition:all 5s ease-in-out;
+}
