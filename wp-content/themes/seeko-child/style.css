@@ -1245,11 +1245,11 @@ select#bp_mymood_mood {
 
 /* ****---------- 3.6 Better more button ----------**** */
 
-ul.activity-list .load-more {
+ul.activity-list .load-more, ul.activity-list .load-newest {
     padding:  0;
 }
 
-ul.activity-list .load-more>a {
+ul.activity-list .load-more>a，ul.activity-list .load-newest>a {
     padding:  1rem;
     width:  100%;
     text-align:  center;
