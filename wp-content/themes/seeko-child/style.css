@@ -211,6 +211,7 @@ body.error404 h6 {
 .bbp-topic-meta .icon {
     margin-right: .25em;
     font-size: inherit;
+    line-height: 1.5em;
 }
 
 .bp_members #item-buttons #post-mention,
@@ -625,7 +626,7 @@ span.bbp-admin-links a {
 }
 
 .bbp-reply-header-meta {
-    margin: 0;
+    margin: -0.2rem 0 0 0;
     text-indent: calc(3.5rem + 0.67vw);
     position: relative;
 }
@@ -1454,11 +1455,12 @@ li.just-posted {
     padding-left: 0;
 }
 
-/* Ajax Login modal anim. */
 .modal-backdrop {
     background: rgba(0,0,0,0.5);
     box-shadow: 0 0 calc(25vw + 25vh) #000 inset;
 }
+/* More Micro effect */
+
 .svq-login:hover:before, .svq-register:hover:before, .svq-lost-pass:hover:before {
     transform: rotate(15deg);
 }
@@ -1479,4 +1481,55 @@ li.just-posted {
         transform: rotate(30deg);
         top: -20%;
         left:10%
+}
+body:not(.single) .post-card.format-standard:not(.has-post-thumbnail):hover:before {
+    transform: rotate(31deg) translate(0px,50px);
+}
+
+body:not(.single) .post-card:not(.has-post-thumbnail):before,
+body:not(.single) .post-card:not(.has-post-thumbnail):after {
+    transition: transform 0.3s ease-out;
+}
+
+body:not(.single) .post-card.format-standard:not(.has-post-thumbnail):hover:after {
+    transform: rotate(-40deg);
+}
+
+body:not(.single) .post-card.format-video:hover:before {transform: rotate(20deg) translate(50%,-33%);}
+body:not(.single) .post-card.format-video:hover:after {transform: translate(-50%,0%);}
+
+body:not(.single) .post-card.format-image:hover:before {
+    transform: rotate(35deg);
+}
+
+body:not(.single) .post-card.format-image:hover:after {
+    transform: rotate(-30deg);
+}
+
+/* 4.8.external links */
+
+a[href^="http://"]:not([href*="www.gustudy.club"]):after,
+a[href^="https://"]:not([href*="www.gustudy.club"]):after, 
+a[href^="//"]:not([href*="www.gustudy.club"]):after {
+	content: "\e901";
+	font-family: 'icon';
+	opacity: 0;
+	position:relative;
+	width: 0.5em;
+	font-weight:  initial;
+	overflow:  hidden;
+	height:  1em;
+	transition:all .15s ease-in-out;
+	display:  inline-block;
+	margin-left: -0.5em;
+}
+a[href^="http://"]:not([href*="www.gustudy.club"]):hover:after,
+a[href^="https://"]:not([href*="www.gustudy.club"]):hover:after, 
+a[href^="//"]:not([href*="www.gustudy.club"]):hover:after, 
+a[href^="http://"]:not([href*="www.gustudy.club"]):focus:after,
+a[href^="https://"]:not([href*="www.gustudy.club"]):focus:after, 
+a[href^="//"]:not([href*="www.gustudy.club"]):focus:after {
+	opacity:0.5;
+	width:  1em;
+	margin-left: 0.2em;
 }
