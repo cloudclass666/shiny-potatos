@@ -131,6 +131,7 @@ html {
 
 #seekoMainMenu .current-menu-item a {
     color: #1890ff;
+    position: relative;
 }
 
 #seekoMainMenu .current-menu-item a > i {
