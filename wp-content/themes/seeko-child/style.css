@@ -1551,10 +1551,11 @@ a[href^="//"]:not([href*="www.gustudy.club"]):focus:after {
 	margin-left: 0.2em;
 }
 
-.container pre.prettyprinted, 
-.container pre { background-color: #282C34; background-color: var(--pre-very-dark-gray);} /* background */
+.container pre.prettyprinted, .container pre,
+#bbpress-forums div.bbp-reply-content pre, #bbpress-forums div.bbp-topic-content pre { background-color: #282C34; background-color: var(--pre-very-dark-gray);} /* background */
 
 .container pre.prettyprinted, .container pre, 
+#bbpress-forums div.bbp-reply-content pre, #bbpress-forums div.bbp-topic-content pre,
 .container pre .pln { color: #DADEE5; color: var(--pre-white); } /* plaintext */
 
 .container pre .str { color: var(--pre-light-green); } /* string */
