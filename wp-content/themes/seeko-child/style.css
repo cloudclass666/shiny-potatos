@@ -1561,9 +1561,9 @@ a[href^="//"]:not([href*="www.gustudy.club"]):focus:after {
 .container pre .kwd { color: var(--pre-pink); } /* keyword */
 .container pre .com { color: #545B68; } /* comment */
 .container pre .typ { color: var(--pre-orange); } /* type */
-.container pre .lit { color: var(--pre-red); } /* literal */
+.container pre .lit { color: var(--pre-blue); } /* literal */
 .container pre .pun { color: var(--pre-light-gray); } /* punctuation */
-.container pre .tag { color: var(--pre-blue); } /* html/xml tag */
-.container pre .atn { color: var(--pre-light-blue); } /* html/xml attribute name */
+.container pre .tag { color: var(--pre-red); } /* html/xml tag */
+.container pre .atn { color: var(--pre-light-orange); } /* html/xml attribute name */
 .container pre .atv { color: var(--pre-light-green); } /* html/xml attribute value */
 .container pre .dec { color: var(--pre-light-orange); } /* decimal */
