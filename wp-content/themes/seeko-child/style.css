@@ -39,6 +39,22 @@ Note:           Only this child theme is licensed under the GNU General Public L
     --dark: #000;
 
     --font-family-sans-serif: Noto Sans CJK SC,Sourse Han Sans CN,"思源黑体 CN",Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+
+    --pre-white:#DADEE5;
+    --pre-gray:#AAB1BF;
+    --pre-light-gray:#C8CED6;
+    --pre-dark-gray:#343943;
+    --pre-very-dark-gray:#282C34;
+    --pre-blue:#5CAEF2;
+    --pre-light-blue:#84C3F7;
+    --pre-light-green:#90BB71;
+    --pre-green:#90BB71;
+    --pre-red:#D8676F;
+    --pre-light-pink:#C38FC1;
+    --pre-pink:#C473DC;
+    --pre-very-pink:#C839F1;
+    --pre-orange:#D2876D;
+    --pre-light-orange:#D2876D;
 }
 
 html {
@@ -1534,3 +1550,20 @@ a[href^="//"]:not([href*="www.gustudy.club"]):focus:after {
 	width:  1em;
 	margin-left: 0.2em;
 }
+
+.container pre.prettyprinted, 
+.container pre { background-color: #282C34; background-color: var(--pre-very-dark-gray);} /* background */
+
+.container pre.prettyprinted, .container pre, 
+.container pre .pln { color: #DADEE5; color: var(--pre-white); } /* plaintext */
+
+.container pre .str { color: var(--pre-light-green); } /* string */
+.container pre .kwd { color: var(--pre-pink); } /* keyword */
+.container pre .com { color: #545B68; } /* comment */
+.container pre .typ { color: var(--pre-orange); } /* type */
+.container pre .lit { color: var(--pre-red); } /* literal */
+.container pre .pun { color: var(--pre-light-gray); } /* punctuation */
+.container pre .tag { color: var(--pre-blue); } /* html/xml tag */
+.container pre .atn { color: var(--pre-light-blue); } /* html/xml attribute name */
+.container pre .atv { color: var(--pre-light-green); } /* html/xml attribute value */
+.container pre .dec { color: var(--pre-light-orange); } /* decimal */
