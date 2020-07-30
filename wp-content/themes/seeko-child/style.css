@@ -323,6 +323,15 @@ body.register.buddypress .editfield label {
     overflow: auto;
 }
 
+#object-nav > ul > li.selected a:before {
+    background: #1890ff
+}
+
+#object-nav > ul > li > a:before {
+    background: #91d5ff
+}
+
+
 #message a {
     color: inherit;
     text-decoration: underline;
@@ -1521,6 +1530,17 @@ body:not(.single) .post-card.format-image:hover:before {
 
 body:not(.single) .post-card.format-image:hover:after {
     transform: rotate(-30deg);
+}
+
+body:not(.single) .post-card.format-gallery:before {
+    transform: rotate(-30deg);
+}
+
+body:not(.single) .post-card.format-gallery:hover:before {
+    transform: translateY(-5px);
+}
+body:not(.single) .post-card.format-gallery:hover:after {
+    transform: translateY(3px);
 }
 
 /* 4.8.external links */
