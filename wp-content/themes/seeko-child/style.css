@@ -47,14 +47,14 @@ Note:           Only this child theme is licensed under the GNU General Public L
     --pre-very-dark-gray:#282C34;
     --pre-blue:#5CAEF2;
     --pre-light-blue:#84C3F7;
-    --pre-light-green:#90BB71;
-    --pre-green:#90BB71;
+    --pre-light-green:#90bb72;
+    --pre-green:#86b464;
     --pre-red:#D8676F;
     --pre-light-pink:#C38FC1;
     --pre-pink:#C473DC;
     --pre-very-pink:#C839F1;
     --pre-orange:#D2876D;
-    --pre-light-orange:#D2876D;
+    --pre-light-orange:#dc967f;
 }
 
 html {
@@ -1574,22 +1574,23 @@ a[href^="//"]:not([href*="www.gustudy.club"]):focus:after {
 
 .smartideo {
     height: calc(33vh + 25vw);
+    width:auto;
 }
 
-.container pre.prettyprinted, .container pre,
-#bbpress-forums div.bbp-reply-content pre, #bbpress-forums div.bbp-topic-content pre { background-color: #282C34; background-color: var(--pre-very-dark-gray);} /* background */
 
-.container pre.prettyprinted, .container pre, 
-#bbpress-forums div.bbp-reply-content pre, #bbpress-forums div.bbp-topic-content pre,
+#bbpress-forums div.bbp-reply-content pre, #bbpress-forums div.bbp-topic-content pre, .container pre.prettyprinted, 
+.container pre { background-color: #282C34; background-color: var(--pre-very-dark-gray);} /* background */
+
+.container pre.prettyprinted, .container pre, #bbpress-forums div.bbp-reply-content pre, #bbpress-forums div.bbp-topic-content pre,
 .container pre .pln { color: #DADEE5; color: var(--pre-white); } /* plaintext */
 
-.container pre .str { color: var(--pre-light-green); } /* string */
-.container pre .kwd { color: var(--pre-pink); } /* keyword */
-.container pre .com { color: #545B68; } /* comment */
-.container pre .typ { color: var(--pre-orange); } /* type */
-.container pre .lit { color: var(--pre-blue); } /* literal */
-.container pre .pun { color: var(--pre-light-gray); } /* punctuation */
-.container pre .tag { color: var(--pre-red); } /* html/xml tag */
-.container pre .atn { color: var(--pre-light-orange); } /* html/xml attribute name */
-.container pre .atv { color: var(--pre-light-green); } /* html/xml attribute value */
-.container pre .dec { color: var(--pre-light-orange); } /* decimal */
+.container pre .str { color:#86b464; color: var(--pre-green); } /* string */
+.container pre .kwd { color:#C473DC; color: var(--pre-pink); } /* keyword */
+.container pre .com { color:#545B68; } /* comment */
+.container pre .typ { color:#D2876D; color: var(--pre-orange); } /* type */
+.container pre .dec { color:#dc967f; color: var(--pre-light-orange); } /* decimal */
+.container pre .lit { color:#5CAEF2; color: var(--pre-blue); } /* literal */
+.container pre .pun { color:#AAB1BF; color: var(--pre-gray); } /* punctuation */
+.container pre .tag { color:#D8676F; color: var(--pre-red); } /* html/xml tag */
+.container pre .atn { color:#D2876D; color: var(--pre-orange); } /* html/xml attribute name */
+.container pre .atv { color:#90BB71; color: var(--pre-light-green); } /* html/xml attribute value */
