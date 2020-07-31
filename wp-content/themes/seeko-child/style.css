@@ -656,6 +656,7 @@ span.bbp-admin-links a {
     margin: -0.2rem 0 0 0;
     text-indent: calc(3.5rem + 0.67vw);
     position: relative;
+    z-index: -1;
 }
 
 .bbp-reply-header-meta > * {
