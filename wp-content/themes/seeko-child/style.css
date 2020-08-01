@@ -324,11 +324,11 @@ body.register.buddypress .editfield label {
 }
 
 @media (max-width:1150px) {
-#object-nav > ul > li.selected a:before {
+#buddypress #object-nav > ul > li.selected a:before {
     background: #1890ff
 }
 
-#object-nav > ul > li > a:before {
+#buddypress #object-nav > ul > li > a:before {
     background: #91d5ff
 }
 }
