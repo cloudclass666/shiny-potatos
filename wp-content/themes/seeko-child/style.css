@@ -213,6 +213,42 @@ span.post-state {
     overflow: visible;
 }
 
+@media only screen and (max-width:768px) {
+    #seekoMainMenu > .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    #seekoMainMenu .search-menu {
+        order: 10;
+        width:  100%;
+    }
+    
+    #seekoMainMenu .search-menu form[role=search] {
+        display:  flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    #seekoMainMenu .search-menu > .search-form > label {
+        width:  100%;
+    }
+    
+    #seekoMainMenu .notification-bell-menu {
+        float:  none;
+        overflow:  visible;
+        order: 20;
+    }
+    
+    #seekoMainMenu #header ul.dropdown-menu li a {
+        padding-right: 0.5rem;
+    }
+    #seekoMainMenu > ul > li .dropdown-menu {
+        position:  absolute;
+    }
+}
+
 body.error404 h1 {
     font-size: 2.4em;
 }
