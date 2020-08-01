@@ -859,7 +859,9 @@ span.bbp-admin-links a {
 #bbpress-forums .bbp-single-forum-description ol li {
     list-style: inherit;
 }
-
+#buddypress .bbp-single-forum-description {
+    display:  none!important;
+}
 #bbpress-forums ul.bbp-forums .bbp-forums-list {
     border: none;
 }
