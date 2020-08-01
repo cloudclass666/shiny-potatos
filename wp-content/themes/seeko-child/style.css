@@ -751,6 +751,14 @@ span.bbp-admin-links a {
     justify-content: center;
 }
 
+body.buddypress #item-header {
+    padding-bottom:  0;
+}
+
+body.buddypress .bp-member-layout #object-nav.item-list-tabs {
+    margin-top:  0;
+}
+
 /*  */
 #forums-list-2816 {
     display: flex;
