@@ -1624,7 +1624,7 @@ body:not(.single) .post-card.format-gallery:hover:after {
 }
 
 /* 4.8.external links */
-
+/*
 a[href^="http://"]:not([href*="www.gustudy.club"]):after,
 a[href^="https://"]:not([href*="www.gustudy.club"]):after, 
 a[href^="//"]:not([href*="www.gustudy.club"]):after {
@@ -1650,7 +1650,7 @@ a[href^="//"]:not([href*="www.gustudy.club"]):focus:after {
 	width:  1em;
 	margin-left: 0.2em;
 }
-
+*/
 .smartideo {
     height: calc(33vh + 25vw);
     width:auto;
@@ -1659,6 +1659,31 @@ a[href^="//"]:not([href*="www.gustudy.club"]):focus:after {
 .bp-member-layout #header-cover-image:before {
     background: linear-gradient(35deg,#5cdbd3,#096dd9,#722ed1,#c41d7f);
 }
+
+.gallery {display: flex;flex-direction: row;flex-wrap: wrap;align-items:  center;justify-content:  center;}
+
+.gallery-item {border-radius:  0.5rem;display:  flex;align-items:  center;}
+
+.gallery-item .gallery-icon {
+    transform:  scale(1.05);
+}
+.gallery-item:hover .gallery-icon {
+    transform:  scale(1);
+}
+
+.gallery-item .gallery-icon {
+    transition: transform 0.3s ease-in-out
+}
+
+.gallery-columns-1 .gallery-item {width: 100%;}
+.gallery-columns-2 .gallery-item {width: calc(19vw + 19vh)!important;height: calc(19vw + 19vh)!important;}
+.gallery-columns-3 .gallery-item {width: calc(12vw + 12vh)!important;height: calc(12vw + 12vh)!important;}
+.gallery-columns-4 .gallery-item {width: calc(9vw + 9vh)!important;height: calc(9vw + 9vh)!important;}
+.gallery-columns-5 .gallery-item {width: calc(7vw + 7vh)!important;height: calc(7vw + 7vh)!important;}
+.gallery-columns-6 .gallery-item {width: calc(6vw + 6vh)!important;height: calc(6vw + 6vh)!important;}
+.gallery-columns-7 .gallery-item {width: calc(5vw + 5vh)!important;height: calc(5vw + 5vh)!important;}
+.gallery-columns-8 .gallery-item {width: calc(4.5vw + 4.5vh)!important;height: calc(4.5vw + 4.5vh)!important;}
+.gallery-columns-9 .gallery-item {width: calc(4vw + 4vh)!important;height: calc(4vw + 4vh)!important;}
 
 #bbpress-forums div.bbp-reply-content pre, #bbpress-forums div.bbp-topic-content pre, .container pre.prettyprinted, 
 .container pre { background-color: #282C34; background-color: var(--pre-very-dark-gray);} /* background */
