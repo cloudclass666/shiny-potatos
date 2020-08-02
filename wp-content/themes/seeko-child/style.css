@@ -448,17 +448,26 @@ body.register.buddypress .editfield label {
 .bbp-signature {
     position: relative;
     padding: .5em 2em;
-    border-top: 1px dashed #AAA;
+    border-top: 1px dashed rgba(0,0,0,.2);
     font-size: inherit;
 }
 
 .bbp-signature:before {
+    content: "\e918";
+    font-family: 'icon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     display: inline;
     position: absolute;
     left: 0;
     font-size: 1.8em;
-    content: '\270e';
-    opacity: .2;
+    opacity: .5;
+    transform: scaleX(-1);
 }
 
 .bbp-signature p {
