@@ -729,6 +729,7 @@ span.bbp-admin-links a {
     margin: 0 0 -1.8em;
     padding: 0 0 0 .5em;
     text-align: initial;
+    width: fit-content;
     z-index: 1;
 }
 
