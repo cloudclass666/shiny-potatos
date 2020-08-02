@@ -1675,6 +1675,30 @@ a[href^="//"]:not([href*="www.gustudy.club"]):focus:after {
     transition: transform 0.3s ease-in-out
 }
 
+@media (min-width: 1150px) {
+    .sidebar-right {
+        -ms-grid-columns: calc(100% - 310px) 220px;
+        grid-template-columns: calc(100% - 220px) 220px;
+    }
+
+    .sidebar-left,.sidebar-single {
+        -ms-grid-columns: 220px calc(100% - 220px);
+        grid-template-columns: 220px calc(100% - 220px);
+    }
+}
+
+@media (min-width: 1440px) {
+    .sidebar-right {
+        -ms-grid-columns: calc(100% - 275px) 275px;
+        grid-template-columns: calc(100% - 275px) 275px;
+    }
+
+    .sidebar-left,.sidebar-single {
+        -ms-grid-columns: 275px calc(100% - 275px);
+        grid-template-columns: 275px calc(100% - 275px);
+    }
+}
+
 .gallery-columns-1 .gallery-item {width: 100%;}
 .gallery-columns-2 .gallery-item {width: calc(19vw + 19vh)!important;height: calc(19vw + 19vh)!important;}
 .gallery-columns-3 .gallery-item {width: calc(12vw + 12vh)!important;height: calc(12vw + 12vh)!important;}
