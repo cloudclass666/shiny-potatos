@@ -105,6 +105,16 @@ html {
     background: #b5f5ec;
     color: #002329;
 }
+
+span.blur {
+    background:  #000!important;
+    color:  #000!important;
+}
+
+span.blur::selection {
+    background:  #13c2c2!important;
+    color:  #e6fffb!important;
+}
 /*
 @media screen and (min-width:1200px) {
     button,
