@@ -1775,6 +1775,50 @@ a[href^="//"]:not([href*="www.gustudy.club"]):focus:after {
 .gallery-columns-8 .gallery-item {width: calc(4.5vw + 4.5vh)!important;height: calc(4.5vw + 4.5vh)!important;}
 .gallery-columns-9 .gallery-item {width: calc(4vw + 4vh)!important;height: calc(4vw + 4vh)!important;}
 
+/* */
+
+form.bbr-form-topic-resolution {
+    display:  flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+select.bbr-resolutions-dropdown {
+    width: auto;
+    display:  inline-block;
+}
+
+.bbr-resolution-sticker {
+    display: inline-flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background: #F8F8F8;
+    text-decoration: none;
+    margin-right: .25rem;
+    color: #333;
+    background: #F8F8F8;
+    padding: .3125rem .6rem;
+    font-size: .875em;
+    line-height: 1.2;
+    border-radius: 1rem;
+}
+.bbr-resolution-sticker.bbr-resolution-idea-sticker {
+    color: #a026ff;
+    background-color: rgba(160,38,255,0.1);
+}
+.bbr-resolution-sticker.bbr-resolution-question-sticker {
+    color: #fd7e14;
+    background-color: rgba(253,126,20,0.1);
+}
+.bbr-resolution-sticker.bbr-resolution-info-sticker {
+    color: #17a2b8;
+    background-color: rgba(23,162,184,0.1);
+}
+.bbr-resolution-sticker.bbr-resolution-exp-sticker {
+    color: #04bbf1;
+    background-color: rgba(4,187,241,0.1);
+}
+
 #bbpress-forums div.bbp-reply-content pre, #bbpress-forums div.bbp-topic-content pre, .container pre.prettyprinted, 
 .container pre { background-color: #282C34; background-color: var(--pre-very-dark-gray);} /* background */
 
