@@ -1627,6 +1627,12 @@ li.just-posted {
     padding-left: 0;
 }
 
+@media (max-width: 640px ){
+    #message-thread .message-box .avatar-square-lg {
+        width:  2rem;
+    }
+}
+
 .modal-backdrop {
     background: rgba(0,0,0,0.5);
     box-shadow: 0 0 calc(25vw + 25vh) #000 inset;
