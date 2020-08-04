@@ -1749,25 +1749,25 @@ a[href^="//"]:not([href*="www.gustudy.club"]):focus:after {
 
 @media (min-width: 1150px) {
     .sidebar-right {
-        -ms-grid-columns: calc(100% - 310px) 220px;
-        grid-template-columns: calc(100% - 220px) 220px;
+        -ms-grid-columns: calc(100% - 310px) 220px!important;
+        grid-template-columns: calc(100% - 220px) 220px!important;
     }
 
     .sidebar-left,.sidebar-single {
-        -ms-grid-columns: 220px calc(100% - 220px);
-        grid-template-columns: 220px calc(100% - 220px);
+        -ms-grid-columns: 220px calc(100% - 220px)!important;
+        grid-template-columns: 220px calc(100% - 220px)!important;
     }
 }
 
 @media (min-width: 1440px) {
     .sidebar-right {
-        -ms-grid-columns: calc(100% - 275px) 275px;
-        grid-template-columns: calc(100% - 275px) 275px;
+        -ms-grid-columns: calc(100% - 275px) 275px!important;
+        grid-template-columns: calc(100% - 275px) 275px!important;
     }
 
     .sidebar-left,.sidebar-single {
-        -ms-grid-columns: 275px calc(100% - 275px);
-        grid-template-columns: 275px calc(100% - 275px);
+        -ms-grid-columns: 275px calc(100% - 275px)!important;
+        grid-template-columns: 275px calc(100% - 275px)!important;
     }
 }
 
