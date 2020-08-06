@@ -1732,6 +1732,16 @@ a[href^="//"]:not([href*="www.gustudy.club"]):focus:after {
     background: linear-gradient(35deg,#5cdbd3,#096dd9,#722ed1,#c41d7f);
 }
 
+@media (max-width: 1150px) {
+.bp-member-layout.bp-has-cover #header-cover-image:before {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.33));
+    box-shadow: 0 -14rem 8rem -8rem rgba(0, 0, 0, 0.33) inset;
+}
+
+#object-nav.item-list-tabs > ul {
+    text-shadow: 0 0.0625em 0.25em rgba(0,0,0,0.5);
+}
+}
 .gallery {display: flex;flex-direction: row;flex-wrap: wrap;align-items:  center;justify-content:  center;}
 
 .gallery-item {border-radius:  0.5rem;display:  flex;align-items:  center;}
