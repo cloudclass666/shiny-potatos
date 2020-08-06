@@ -1631,6 +1631,29 @@ li.just-posted {
     #message-thread .message-box .avatar-square-lg {
         width:  2rem;
     }
+    .activity-content, #message-thread .message-body {
+        width: calc(100% - 2rem - 1rem);
+    }
+    #message-thread .message-box .message-body .message-content {
+        background: rgba(191, 191, 191, 0.1);
+        border-radius:  0 1rem 1rem 1rem;
+        padding:  0.5rem;
+        word-break: break-all;
+    }
+    
+    #message-thread .message-box.sent-by-me .message-body .message-content {
+        background: rgba(105, 192, 255, 0.1);
+        border-radius:  1rem 0 1rem 1rem;
+    
+    }
+    
+    #message-thread .message-body .message-content > * {
+        margin-bottom:  0.25rem;
+    }
+    
+    #message-thread .message-body .message-content > *:last-child {
+        margin-bottom:  0;
+    }
 }
 
 .modal-backdrop {
