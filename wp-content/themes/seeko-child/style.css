@@ -848,7 +848,9 @@ span.bbp-admin-links a {
 #item-header-avatar {
     text-align: center;
 }
-
+body.groups.single-item #buddypress #item-header-avatar .img-dynamic,body.bp-user.single #item-header-avatar .img-dynamic {
+    background:  transparent;
+}
 .user-meta-wrapper {
     justify-content: center;
 }
@@ -1753,10 +1755,9 @@ a[href^="//"]:not([href*="www.gustudy.club"]):focus:after {
 #header-cover-image {
     background-position: center;
 }
-.bp-member-layout #header-cover-image:before {
+/*.bp-member-layout #header-cover-image:before {
     background: linear-gradient(35deg,#5cdbd3,#096dd9,#722ed1,#c41d7f);
-}
-
+}*/
 @media (max-width: 1150px) {
 .bp-member-layout.bp-has-cover #header-cover-image:before {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.33));
