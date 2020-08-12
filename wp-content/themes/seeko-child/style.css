@@ -1750,7 +1750,9 @@ a[href^="//"]:not([href*="www.gustudy.club"]):focus:after {
     height: calc(33vh + 25vw);
     width:auto;
 }
-
+#header-cover-image {
+    background-position: center;
+}
 .bp-member-layout #header-cover-image:before {
     background: linear-gradient(35deg,#5cdbd3,#096dd9,#722ed1,#c41d7f);
 }
