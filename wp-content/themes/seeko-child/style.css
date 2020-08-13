@@ -1136,6 +1136,13 @@ body.buddypress.activity.page .page-title, body.buddypress.activity.page:not(.bp
     display: none!important;
 }
 
+.bbp_topic_create.activity-item  .activity-meta .acomment-reply, .bbp_reply_create.activity-item .activity-meta .acomment-reply {
+    display: none;
+}
+.mini.activity-item .activity-meta{
+    display:none;
+}
+
 @keyframes side-jumping {
     0%,
     100% {
