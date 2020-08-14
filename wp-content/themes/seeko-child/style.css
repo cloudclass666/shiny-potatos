@@ -272,7 +272,7 @@ span.post-state {
     min-width: 6rem!important;
 }
 
-.sq-menu .has-submenu > a {
+.main-menu .has-submenu > a {
     pointer-events:  none;
 }
 
