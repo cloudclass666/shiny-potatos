@@ -260,8 +260,8 @@ span.post-state {
 }
 
 .sq-menu .has-submenu > .submenu {
-    width:  auto;
-    min-width: 6rem;
+    width:  auto!important;
+    min-width: 6rem!important;
 }
 
 .sq-menu .has-submenu > a {
@@ -273,8 +273,8 @@ span.post-state {
 }
 
 .sq-menu .has-submenu:last-child > .submenu {
-    right:  0;
-    left:  initial;
+    right:  0!important;
+    left:  initial!important;
 }
 
 .sq-menu-modburger .menu-burger.sq-menu-modburger-show {
