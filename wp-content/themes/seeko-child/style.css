@@ -175,14 +175,16 @@ span.blur::selection {
     box-shadow: 0 1px 3px 0 rgba(24,144,255,0.4);
 }
 
-.navbar-nav li.menu-item i.icon {
+.navbar-nav li.menu-item i.icon,
+.user-nav li.menu-item i.icon {
     margin-right: .0625em;
     font-size: 1.4em;
     vertical-align: middle;
     line-height: 0;
 }
 
-.navbar-nav li.menu-item i.icon > i.icon {
+.navbar-nav li.menu-item i.icon > i.icon,
+.user-nav li.menu-item i.icon > i.icon {
     margin-left: -0.85em;
     opacity: 0.5;
 }
@@ -207,13 +209,19 @@ span.blur::selection {
     color: #fadb14;
 }
 
-.navbar-nav li.menu-item i.icon > i.icon.icon-dual-cool-hover {
+.user-nav li.menu-item i.icon > i.icon.icon-dual-cool-hover {
     color: #a0d911;
 }
 
 .navbar-nav li.menu-item i.icon > i.icon.icon-dual-what-hover {
     color: #fa8c16;
 }
+
+#seekoMainMenu .current-menu-item .submenu a {
+    color:  inherit;
+}
+
+#seekoMainMenu .current-menu-item .submenu .current-menu-item a {font-weight:  bold;}
 
 span.post-state {
     display: none;
