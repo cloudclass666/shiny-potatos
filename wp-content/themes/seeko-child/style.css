@@ -188,7 +188,7 @@ span.blur::selection {
 }
 
 .navbar-nav li.menu-item i.icon > i.icon.icon-comment-fill {
-    font-size: 1.33rem;
+    font-size: 1em;
     transform: translate(-1px,-1px);
     color: #13c2c2;
 }
@@ -257,6 +257,32 @@ span.post-state {
     #seekoMainMenu > ul > li .dropdown-menu {
         position:  absolute;
     }
+}
+
+.sq-menu .has-submenu > .submenu {
+    width:  auto;
+    min-width: 6rem;
+}
+
+.sq-menu .has-submenu > a {
+    pointer-events:  none;
+}
+
+.item.sq-menu-modburger {
+    justify-content: center;
+}
+
+.sq-menu .has-submenu:last-child > .submenu {
+    right:  0;
+    left:  initial;
+}
+
+.sq-menu-modburger .menu-burger.sq-menu-modburger-show {
+    background: linear-gradient( 0deg,rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.95) 60%);
+}
+
+.sq-menu-modburger .menu-burger .main-menu .menu-item .item {
+    color:initial;
 }
 
 body.error404 h1 {
