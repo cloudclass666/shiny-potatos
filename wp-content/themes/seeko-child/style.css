@@ -175,43 +175,43 @@ span.blur::selection {
     box-shadow: 0 1px 3px 0 rgba(24,144,255,0.4);
 }
 
-ul.navbar-nav li.menu-item i.icon {
+.navbar-nav li.menu-item i.icon {
     margin-right: .0625em;
     font-size: 1.4em;
     vertical-align: middle;
     line-height: 0;
 }
 
-ul.navbar-nav li.menu-item i.icon > i.icon {
+.navbar-nav li.menu-item i.icon > i.icon {
     margin-left: -0.85em;
     opacity: 0.5;
 }
 
-ul.navbar-nav li.menu-item i.icon > i.icon.icon-comment-fill {
+.navbar-nav li.menu-item i.icon > i.icon.icon-comment-fill {
     font-size: 1.33rem;
     transform: translate(-1px,-1px);
     color: #13c2c2;
 }
 
-ul.navbar-nav li.menu-item i.icon > i.icon.icon-dual-match-hover {
+.navbar-nav li.menu-item i.icon > i.icon.icon-dual-match-hover {
     color: #1890ff;
 }
 
-ul.navbar-nav li.menu-item i.icon > i.icon.icon-dual-bookmark-hover {
+.navbar-nav li.menu-item i.icon > i.icon.icon-dual-bookmark-hover {
     transform: translateY(-0.0625em);
     color: #722ed1;
 }
 
-ul.navbar-nav li.menu-item i.icon > i.icon.icon-dual-why-hover {
+.navbar-nav li.menu-item i.icon > i.icon.icon-dual-why-hover {
     transform: translateY(-0.08em);
     color: #fadb14;
 }
 
-ul.navbar-nav li.menu-item i.icon > i.icon.icon-dual-cool-hover {
+.navbar-nav li.menu-item i.icon > i.icon.icon-dual-cool-hover {
     color: #a0d911;
 }
 
-ul.navbar-nav li.menu-item i.icon > i.icon.icon-dual-what-hover {
+.navbar-nav li.menu-item i.icon > i.icon.icon-dual-what-hover {
     color: #fa8c16;
 }
 
