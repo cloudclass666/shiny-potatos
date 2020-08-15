@@ -279,6 +279,9 @@ span.post-state {
 .item.sq-menu-modburger {
     justify-content: center;
 }
+.sq-menu-modburger .menu-burger .sq-menu-modburger-close {
+    float: initial;
+}
 
 .sq-menu .has-submenu:last-child > .submenu {
     right:  0!important;
