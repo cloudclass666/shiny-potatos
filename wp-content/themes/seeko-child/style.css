@@ -288,8 +288,12 @@ span.post-state {
     left:  initial!important;
 }
 
+.sq-menu-modburger .menu-burger .main-menu {
+    height: 90%;
+}
+
 .sq-menu-modburger .menu-burger.sq-menu-modburger-show {
-    background: linear-gradient( 0deg,rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.95) 60%);
+    background: linear-gradient( 0deg,rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.95) 60%)!important;
 }
 
 .sq-menu-modburger .menu-burger .main-menu .menu-item .item {
