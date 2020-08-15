@@ -223,6 +223,10 @@ span.blur::selection {
 
 #seekoMainMenu .current-menu-item .submenu .current-menu-item a {font-weight:  bold;}
 
+.sq-search .input-text:not(:placeholder-shown) + .input-label, .sq-search .input-text:focus:not(:placeholder-shown) + .input-label {
+    transform: translate3d(15%, 33%, 0) scale(0.9);
+}
+
 span.post-state {
     display: none;
 }
