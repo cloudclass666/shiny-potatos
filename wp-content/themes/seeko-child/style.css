@@ -1138,6 +1138,10 @@ li.bbp-forum-reply-count:before {
     width: 16em;
 }
 
+.notifications_lists_container .notifications_lists > div a {
+    color: #333!important;
+}
+
 .bnb-no-alert {
     opacity: 0.5;
     width: 0;
