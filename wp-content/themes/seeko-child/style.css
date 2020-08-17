@@ -916,25 +916,25 @@ body.buddypress .bp-member-layout #object-nav.item-list-tabs {
 }
 
 /*  */
-#forums-list-2816 {
+#forums-list-3017 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-#forums-list-2816 .bbp-body {
+#forums-list-3017 .bbp-body {
     flex: 1;
 }
 
-#forums-list-2816 .bbp-body ul .bbp-forum-topic-count,
-#forums-list-2816 .bbp-body ul .bbp-forum-reply-count,
-#forums-list-2816 .bbp-body ul .bbp-forum-freshness,
-#forums-list-2816 .bbp-body ul .bbp-forum-content {
+#forums-list-3017 .bbp-body ul .bbp-forum-topic-count,
+#forums-list-3017 .bbp-body ul .bbp-forum-reply-count,
+#forums-list-3017 .bbp-body ul .bbp-forum-freshness,
+#forums-list-3017 .bbp-body ul .bbp-forum-content {
     display: none;
 }
 
-#forums-list-2816 .bbp-body ul li.bbp-forum-info {
+#forums-list-3017 .bbp-body ul li.bbp-forum-info {
     float: none;
     width: auto;
     text-align: center;
