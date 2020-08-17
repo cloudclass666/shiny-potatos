@@ -476,7 +476,14 @@ body.register.buddypress .editfield label {
 #bbpress-forums .bbp-forums .bbp-body ul.topic li.bbp-topic-title .bbp-topic-meta .bbp-topic-started-by {
     font-size: 13px;
 }
+.bbp-pagination {
+    float:  initial;
+}
 
+.alert>p {
+    margin-bottom:  0;
+    font-size: initial;
+}
 #bbpress-forums .bbp-pagination:after {
     display: table;
     clear: both;
