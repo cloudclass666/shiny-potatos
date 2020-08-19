@@ -284,7 +284,7 @@ span.post-state {
     justify-content: center;
 }
 .sq-menu-modburger .menu-burger .sq-menu-modburger-close {
-    float: initial;
+    float: left!important;
 }
 
 .sq-menu .has-submenu:last-child > .submenu {
