@@ -181,6 +181,8 @@ span.blur::selection {
     font-size: 1.4em;
     vertical-align: middle;
     line-height: 0;
+    width: initial;
+    height: initial;
 }
 
 .navbar-nav li.menu-item i.icon > i.icon,
@@ -209,7 +211,7 @@ span.blur::selection {
     color: #fadb14;
 }
 
-.user-nav li.menu-item i.icon > i.icon.icon-dual-cool-hover {
+.navbar-nav li.menu-item i.icon > i.icon.icon-dual-cool-hover {
     color: #a0d911;
 }
 
