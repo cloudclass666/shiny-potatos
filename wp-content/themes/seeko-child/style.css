@@ -679,7 +679,6 @@ body.register.buddypress .editfield label {
 #bbpress-forums .wp-editor-wrap .wp-media-buttons .add_media span.wp-media-buttons-icon:before {
     content: "\e926";
     font-family: 'icon' !important;
-    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -1924,6 +1923,66 @@ select.bbr-resolutions-dropdown {
 .bbr-resolution-sticker.bbr-resolution-exp-sticker {
     color: #04bbf1;
     background-color: rgba(4,187,241,0.1);
+}
+
+a[id^="bp-like"] {order: 0;}
+
+.acomment-reply {
+    order: 0;
+}
+
+.bp-secondary-action {
+    order: 0;
+}
+
+.acomment-delete, .activity-list .activity-meta .delete-activity, .activity-list .activity-meta .delete-activity-single, .activity-list .activity-meta .button.fav {
+    order: 1;
+}
+
+.activity-meta .rtm-form-select.privacy {
+    order: 2;
+}
+
+.users-who-like {
+display:none
+
+}
+
+a[id^="bp-like"] {
+    background: var(--light);
+    cursor: pointer;
+}
+
+a[id^="bp-like"]:before {
+    margin:0!important;
+}
+.like-text {
+
+}
+.unlike-text {
+
+}
+.like-text i.fa, .unlike-text i.fa {
+    margin-right:0.25rem
+}
+
+.like-count {
+    display: inline-block;
+    padding: .25rem .5rem;
+    font-weight: 700;
+    border-radius: 6px;
+    margin-left: 0.5rem;
+    background: rgba(255,255,255,0.75);
+    color:#888
+}
+
+a.like[id^="bp-like"] {
+    color: #ffc107;
+    background-color: rgba(255,193,7,0.1);
+}
+a.unlike[id^="bp-like"] {
+    color: #fff;
+    background-color: #ffc107;
 }
 
 #bbpress-forums div.bbp-reply-content pre, #bbpress-forums div.bbp-topic-content pre, .container pre.prettyprinted, 
