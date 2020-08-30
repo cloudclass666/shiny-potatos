@@ -1947,7 +1947,26 @@ a[id^="bp-like"] {order: 0;}
 display:none
 
 }
+a.unlike.toggle span.unlike-text,
+a.unlike span.like-text,
+a.like span.unlike-text,
+a.no-ajax-unlike.toggle span.unlike-text,
+a.no-ajax-unlike span.like-text,
+a.no-ajax-like span.unlike-text {
+    display: none;
+}
 
+a.unlike.toggle span.like-text,
+a.unlike.toggle:hover span.unlike-text
+a.no-ajax-unlike.toggle span.like-text,
+a.no-ajax-unlike.toggle:hover span.unlike-text {
+    display: inherit;
+}
+
+a.no-ajax-unlike:hover span.like-text,
+a.unlike:hover span.like-text {
+    display: none;
+}
 a[id^="bp-like"] {
     background: var(--light);
     cursor: pointer;
