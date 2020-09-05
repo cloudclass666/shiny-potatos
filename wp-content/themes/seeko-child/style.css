@@ -115,6 +115,9 @@ span.blur::selection {
     background:  #13c2c2!important;
     color:  #e6fffb!important;
 }
+
+@keyframes loader-pulsate{0%{opacity:0.5}50%{opacity:1.0}100%{opacity:0.5}}
+
 /*
 @media screen and (min-width:1200px) {
     button,
@@ -1975,6 +1978,11 @@ a[id^="bp-like"] {
 a[id^="bp-like"]:before {
     margin:0!important;
 }
+a.button.loading, input.loading, button.loading{
+    animation: loader-pulsate 0.5s infinite ease-in-out alternate;
+    cursor: not-allowed;
+}
+
 .like-text {
 
 }
